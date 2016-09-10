@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body ng-app="chat" ng-controller="chatController">
+	<h1>Chat</h1>
+
+	<script src="lib/angular/angular.min.js"></script>
+
+	<script type="text/javascript" src="lib/jquery/jquery-3.1.0.min.js"></script>
+
+	<script src="js/chat.js"></script>
+	<script type="text/javascript">
+    $(document).ready(function () {
+		$( "#message" ).keypress(function(event) {
+		   if ( event.which == 13 ) {
+    			 $('#btnSend').click();
+  }
+		});
+    });
+</script>
+	
+	 <button  id="btnConnect"  ng-click="connect()" >Connect</button>
+	<button  id="btnDisconnect" ng-click="disconnect()"
+		>Disconnect</button>
+	<br />
+
+	<textarea id="log" rows="20" cols="90"></textarea>
+	<br />
+
+	<input ng-model="message" onkeypress="" id="message"></input>
+
+	<button id="btnSend" ng-click="sendToServer(message)"
+		>Send</button>
+	<br />
+	<br />
+
+</body>
+</html>
