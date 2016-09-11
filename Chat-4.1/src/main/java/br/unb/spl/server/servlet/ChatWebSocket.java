@@ -1,6 +1,8 @@
 package br.unb.spl.server.servlet;
 
 import java.io.IOException;
+import java.util.List;
+import java.util.Map;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
@@ -21,6 +23,10 @@ import br.unb.spl.server.dto.Sessions;
 
 @WebSocket(maxTextMessageSize = 64 * 1024)
 public class ChatWebSocket {
+
+	// @Autowired
+	// private UserService userService;
+
 	private final CountDownLatch closeLatch;
 
 	private Session session;
@@ -55,15 +61,27 @@ public class ChatWebSocket {
 
 	@OnWebSocketConnect
 	public void onConnect(Session session) {
-		System.out.printf("Got connect: %s%n", session);
+
+		String username = getParameterValue(session, "username");
+
+		// String password = getParameterValue(session, "password");
+		// User user = new User(username, password);
+		//
+		// if (!userService.authenticateUser(user).equals("OK")) {
+		// session.close();
+		// return;
+		// }
+
+		System.out.printf("Got connect: %s %n", username);
+
 		this.session = session;
 		Sessions.getInstance().getSessions().add(session);
 		System.out.printf("Active sessions: %d ", Sessions.getInstance().getSessions().size());
 		MessageDTO messageOrigin = new MessageDTO();
-		messageOrigin.setText(String.format("Connected as %s", session.getRemoteAddress()));
+		messageOrigin.setText(String.format("Connected as %s", username));
 
 		MessageDTO messageAll = new MessageDTO();
-		messageAll.setText(String.format("%s has joined the chat", session.getRemoteAddress()));
+		messageAll.setText(String.format("%s has joined the chat", username));
 
 		send(messageOrigin);
 		sendAll(messageAll);
@@ -75,8 +93,10 @@ public class ChatWebSocket {
 		MessageDTO messageDTO;
 		try {
 			messageDTO = (MessageDTO) mapper.readValue(message.getBytes(), MessageDTO.class);
-			System.out.printf("Got msg: %s  %n", message);
-			messageDTO.setText(String.format("%s: %s", session.getRemoteAddress(), messageDTO.getText()));
+			System.out.printf("Message received from %s: %s%n", getParameterValue(session, "username"),
+					messageDTO.getText());
+
+			messageDTO.setText(String.format("%s: %s", getParameterValue(session, "username"), messageDTO.getText()));
 			sendAll(messageDTO);
 		} catch (JsonParseException e) {
 			// TODO Auto-generated catch block
@@ -116,6 +136,16 @@ public class ChatWebSocket {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+	}
+
+	private String getParameterValue(Session session, String key) {
+		Map<String, List<String>> parameters = session.getUpgradeRequest().getParameterMap();
+
+		String value = null;
+		if (parameters.containsKey(key)) {
+			value = parameters.get(key).get(0);
+		}
+		return value;
 	}
 
 	// closes the socket
