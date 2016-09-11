@@ -1,8 +1,6 @@
 package br.unb.spl.server.servlet;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
@@ -14,6 +12,12 @@ import org.eclipse.jetty.websocket.api.annotations.OnWebSocketConnect;
 import org.eclipse.jetty.websocket.api.annotations.OnWebSocketMessage;
 import org.eclipse.jetty.websocket.api.annotations.WebSocket;
 
+import com.fasterxml.jackson.core.JsonParseException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import br.unb.spl.server.dto.MessageDTO;
+import br.unb.spl.server.dto.Sessions;
 
 @WebSocket(maxTextMessageSize = 64 * 1024)
 public class ChatWebSocket {
@@ -33,20 +37,20 @@ public class ChatWebSocket {
 	@OnWebSocketClose
 	public void onClose(int statusCode, String reason) {
 		System.out.printf("Connection closed: %d - %s%n", statusCode, reason);
-//		for (Session s : Sessions.getInstance().getSessions()) {
-//			if (!s.isOpen()) {
-//				
-//				sendAll(String.format("%s has left the chat",s.getRemoteAddress()));
-//				//Sessions.getInstance().getSessions().remove(s);
-//			}
-//
-//		}
-		
-		
-		this.session = null;
+		// for (Session s : Sessions.getInstance().getSessions()) {
+		// if (!s.isOpen()) {
+		//
+		// sendAll(String.format("%s has left the chat",s.getRemoteAddress()));
+
+		// }
+		//
+		// }
+
+		// this.session = null;
 		this.closeLatch.countDown(); // trigger latch
+		Sessions.getInstance().getSessions().remove(session);
 		System.out.printf("Active sessions: %d ", Sessions.getInstance().getSessions().size());
-		
+
 	}
 
 	@OnWebSocketConnect
@@ -55,36 +59,57 @@ public class ChatWebSocket {
 		this.session = session;
 		Sessions.getInstance().getSessions().add(session);
 		System.out.printf("Active sessions: %d ", Sessions.getInstance().getSessions().size());
-		send(String.format("Connected as %s",session.getRemoteAddress()));
-		sendAll(String.format("%s has joinned the chat",session.getRemoteAddress()));
+		MessageDTO messageOrigin = new MessageDTO();
+		messageOrigin.setText(String.format("Connected as %s", session.getRemoteAddress()));
+
+		MessageDTO messageAll = new MessageDTO();
+		messageAll.setText(String.format("%s has joined the chat", session.getRemoteAddress()));
+
+		send(messageOrigin);
+		sendAll(messageAll);
 	}
 
 	@OnWebSocketMessage
 	public void handleMessage(String message) {
+		ObjectMapper mapper = new ObjectMapper();
+		MessageDTO messageDTO;
+		try {
+			messageDTO = (MessageDTO) mapper.readValue(message.getBytes(), MessageDTO.class);
+			System.out.printf("Got msg: %s  %n", message);
+			messageDTO.setText(String.format("%s: %s", session.getRemoteAddress(), messageDTO.getText()));
+			sendAll(messageDTO);
+		} catch (JsonParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (JsonMappingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
-		System.out.printf("Got msg: %s  %n", message);
-		
-		sendAll(String.format("%s: %s", session.getRemoteAddress(),message));
 	}
 
 	// sends message to browser
-	private void send(String message) {
+	private void send(MessageDTO message) {
+		ObjectMapper mapper = new ObjectMapper();
 		try {
 			if (session.isOpen()) {
 
-				session.getRemote().sendString(message);
+				session.getRemote().sendString(mapper.writeValueAsString(message));
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
 
-	private void sendAll(String message) {
-		
+	private void sendAll(MessageDTO messageDTO) {
+		ObjectMapper mapper = new ObjectMapper();
 		try {
 			for (Session s : Sessions.getInstance().getSessions()) {
 				if (s.isOpen()) {
-					s.getRemote().sendString(message);
+					s.getRemote().sendString(mapper.writeValueAsString(messageDTO));
 				}
 
 			}
