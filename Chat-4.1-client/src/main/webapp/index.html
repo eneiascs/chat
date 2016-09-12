@@ -17,24 +17,9 @@
 
 
 	<script src="js/chat.js"></script>
-
-	<script type="text/javascript">
-    $(document).ready(function () {
-		$( "#input-message" ).keypress(function(event) {
-		   if ( event.which == 13 ) {
-    			 $('#btnSend').click();
-  }
-		});
-    });
-    
-    
-
-
-    
-    
-</script>
-
-
+	<script src="lib/angular/angularjs-crypto.js"></script>
+	<script src="lib/angular/CryptoJSCipher.js"></script>
+	<script src="lib/angular/aes.js"></script>
 	<div class="jumbotron">
 		<div class="container">
 			<h1>Chat - 4.1</h1>
@@ -55,25 +40,24 @@
 						ng-show="form.password.$dirty && form.password.$error.required"
 						class="help-block">Password is required</span>
 				</div>
-					<div ng-show="isClosed()&&isRegister" class="form-group">
-					<label for="confirmPassword">Confirm your Password</label> <i class="fa fa-lock"></i> <input
-						type="password" name="confirmPassword" id="confirmPassword" class="form-control"
+				<div ng-show="isClosed()&&isRegister" class="form-group">
+					<label for="confirmPassword">Confirm your Password</label> <i
+						class="fa fa-lock"></i> <input type="password"
+						name="confirmPassword" id="confirmPassword" class="form-control"
 						ng-model="confirmPassword" /> <span
 						ng-show="form.confirmPassword.$dirty && confirmPassword!=password"
 						class="help-block">Passwords don't match </span>
-						
+
 				</div>
 				<div class="form-actions">
 					<button ng-if="isClosed()&&!isRegister" type="submit"
-						ng-disabled="form.$invalid "
-						class="btn btn-danger ">Login</button>
+						ng-disabled="form.$invalid " class="btn btn-danger ">Login</button>
 					<button type="button" ng-if="isRegister" ng-click="cancel()"
-						
 						class="btn btn-danger ">Cancel</button>
 					<button type="button" ng-if="isClosed()" ng-click="register()"
 						ng-disabled="isRegister&&(form.$invalid ||confirmPassword!=password)"
 						class="btn btn-danger ">Register</button>
-								
+
 					<span ng-if="isOpen()">Connected as {{username}}</span>
 					<button type="button" ng-if="isOpen()" ng-click="disconnect()"
 						class="btn btn-danger">Logout</button>

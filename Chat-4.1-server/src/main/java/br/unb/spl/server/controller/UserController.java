@@ -23,7 +23,7 @@ public class UserController {
 	@RequestMapping(value = "/authenticate", method = RequestMethod.POST, headers = { "Content-type=application/json" })
 	@ResponseBody
 	public String authenticateUser(@RequestBody User user) {
-
+		System.out.printf("User %s %s%n", user.getUsername(), user.getPassword());
 		return JSON.toString(userService.authenticateUser(user));
 	}
 

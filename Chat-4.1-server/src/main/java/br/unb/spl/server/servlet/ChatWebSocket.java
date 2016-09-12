@@ -83,8 +83,8 @@ public class ChatWebSocket {
 		MessageDTO messageAll = new MessageDTO();
 		messageAll.setText(String.format("%s has joined the chat", username));
 
-		send(messageOrigin);
-		sendAll(messageAll);
+		// send(messageOrigin);
+		// sendAll(messageAll);
 	}
 
 	@OnWebSocketMessage
@@ -96,7 +96,8 @@ public class ChatWebSocket {
 			System.out.printf("Message received from %s: %s%n", getParameterValue(session, "username"),
 					messageDTO.getText());
 
-			messageDTO.setText(String.format("%s: %s", getParameterValue(session, "username"), messageDTO.getText()));
+			// messageDTO.setText(String.format("%s: %s",
+			// getParameterValue(session, "username"), messageDTO.getText()));
 			sendAll(messageDTO);
 		} catch (JsonParseException e) {
 			// TODO Auto-generated catch block
