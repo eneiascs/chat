@@ -16,8 +16,10 @@ chat.run(function(cfCryptoHttpInterceptor, $rootScope) {
 chat
 		.controller(
 				"chatController",
-
+				
 				function($rootScope, $scope, $http) {
+				$scope.server='localhost:8090'
+					
 					$scope.safeApply = function(fn) {
 						if (this.$root) {
 							var phase = this.$root.$$phase;
@@ -108,7 +110,7 @@ chat
 
 						var req = {
 							method : 'POST',
-							url : 'http://localhost:8090/users/authenticate',
+							url : 'http://'+$scope.server+'/users/authenticate',
 							headers : {
 								'Content-Type' : 'application/json'
 							},
@@ -131,7 +133,7 @@ chat
 													// communication channel
 													// over a websocket
 													$scope.ws = new WebSocket(
-															"ws://localhost:8090/chat?username="
+															"ws://"+$scope.server+"/chat?username="
 																	+ $scope.username
 																	+ "&password="
 																	+ ciphertext);
