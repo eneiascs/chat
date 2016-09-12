@@ -1,8 +1,6 @@
 # Chat
 Simple Chat System
 
-Installation instructions:
-
 Requires Apache Maven https://maven.apache.org/install.html
 
 Server:
