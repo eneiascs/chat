@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+<link rel="stylesheet"
+	href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+</head>
+<body ng-app="chat" ng-controller="chatController">
+
+
+	<script src="lib/angular/angular.min.js"></script>
+
+	<script type="text/javascript" src="lib/jquery/jquery-3.1.0.min.js"></script>
+
+
+
+	<script src="js/chat.js"></script>
+	<script src="lib/angular/angularjs-crypto.js"></script>
+	<script src="lib/angular/CryptoJSCipher.js"></script>
+	<script src="lib/angular/aes.js"></script>
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Chat - 4.1</h1>
+
+			<div ng-show="error" class="alert alert-danger">{{error}}</div>
+			<form name="form" ng-submit="connect()" role="form">
+				<div ng-show="isClosed()" class="form-group">
+					<label for="username">Username</label> <i class="fa fa-key"></i> <input
+						type="text" name="username" id="username" class="form-control"
+						ng-model="username" required /> <span
+						ng-show="form.username.$dirty && form.username.$error.required"
+						class="help-block">Username is required</span>
+				</div>
+				<div ng-show="isClosed()" class="form-group">
+					<label for="password">Password</label> <i class="fa fa-lock"></i> <input
+						type="password" name="password" id="password" class="form-control"
+						ng-model="password" required /> <span
+						ng-show="form.password.$dirty && form.password.$error.required"
+						class="help-block">Password is required</span>
+				</div>
+				<div ng-show="isClosed()&&isRegister" class="form-group">
+					<label for="confirmPassword">Confirm your Password</label> <i
+						class="fa fa-lock"></i> <input type="password"
+						name="confirmPassword" id="confirmPassword" class="form-control"
+						ng-model="confirmPassword" /> <span
+						ng-show="form.confirmPassword.$dirty && confirmPassword!=password"
+						class="help-block">Passwords don't match </span>
+
+				</div>
+				<div class="form-actions">
+					<button ng-if="isClosed()&&!isRegister" type="submit"
+						ng-disabled="form.$invalid " class="btn btn-danger ">Login</button>
+					<button type="button" ng-if="isRegister" ng-click="cancel()"
+						class="btn btn-danger ">Cancel</button>
+					<button type="button" ng-if="isClosed()" ng-click="register()"
+						ng-disabled="isRegister&&(form.$invalid ||confirmPassword!=password)"
+						class="btn btn-danger ">Register</button>
+
+					<span ng-if="isOpen()">Connected as {{username}}</span>
+					<button type="button" ng-if="isOpen()" ng-click="disconnect()"
+						class="btn btn-danger">Logout</button>
+
+				</div>
+			</form>
+
+
+
+			<div ng-show="isOpen()">
+
+				<br />
+
+				<div id="messages"
+					style="height: 500px; width: 400px; overflow-y: scroll; font-size: 0.8em; line-height: 1; border: solid; border-width: 1px">
+					<p
+						ng-style="messageStyle(message.textColor,message.backgroundColor)"
+						ng-repeat="message in messages track by $index">{{message.text}}</p>
+				</div>
+				<div id="messages"
+					style="width: 400px;  border: solid; border-width: 1px">
+					<input type="checkbox" ng-model="config.showColors">Show colors</input>
+					<input type="checkbox" ng-model="config.encryptMessages">Encrypt Messages</input>
+				</div>
+				<!-- 				Feature Colors -->
+				<div ng-if="config.showColors">
+					<label>Text Color</label> <input type="color"
+						style="margin-left: 10px" width="20px"
+						ng-model="message.textColor"></input> <label>Background
+						Color</label> <input style="margin-left: 10px" type="color" width="20px"
+						ng-model="message.backgroundColor"></input> <br />
+				</div>
+				
+				<input
+					ng-style="messageStyle(message.textColor,message.backgroundColor)"
+					ng-model="message.text" onkeypress="" id="input-message"></input>
+
+				<button id="btnSend" ng-click="sendToServer()">Send</button>
+				<br /> <br />
+			</div>
+		</div>
+	</div>
+
+
+
+
+</body>
+</html>
