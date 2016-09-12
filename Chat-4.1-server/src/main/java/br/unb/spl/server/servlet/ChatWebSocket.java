@@ -8,6 +8,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.eclipse.jetty.websocket.api.Session;
 import org.eclipse.jetty.websocket.api.annotations.OnWebSocketClose;
 import org.eclipse.jetty.websocket.api.annotations.OnWebSocketConnect;
@@ -24,6 +25,7 @@ import br.unb.spl.server.dto.Sessions;
 @WebSocket(maxTextMessageSize = 64 * 1024)
 public class ChatWebSocket {
 
+	private static final Logger logger = Logger.getLogger(ChatWebSocket.class);
 	// @Autowired
 	// private UserService userService;
 
@@ -42,7 +44,7 @@ public class ChatWebSocket {
 
 	@OnWebSocketClose
 	public void onClose(int statusCode, String reason) {
-		System.out.printf("Connection closed: %d - %s%n", statusCode, reason);
+		logger.info(String.format("Connection closed: %d - %s%n", statusCode, reason));
 		// for (Session s : Sessions.getInstance().getSessions()) {
 		// if (!s.isOpen()) {
 		//
@@ -55,7 +57,7 @@ public class ChatWebSocket {
 		// this.session = null;
 		this.closeLatch.countDown(); // trigger latch
 		Sessions.getInstance().getSessions().remove(session);
-		System.out.printf("Active sessions: %d ", Sessions.getInstance().getSessions().size());
+		logger.info(String.format("Active sessions: %d ", Sessions.getInstance().getSessions().size()));
 
 	}
 
@@ -72,11 +74,11 @@ public class ChatWebSocket {
 		// return;
 		// }
 
-		System.out.printf("Got connect: %s %n", username);
+		logger.info(String.format("Got connect: %s %n", username));
 
 		this.session = session;
 		Sessions.getInstance().getSessions().add(session);
-		System.out.printf("Active sessions: %d ", Sessions.getInstance().getSessions().size());
+		logger.info(String.format("Active sessions: %d ", Sessions.getInstance().getSessions().size()));
 		MessageDTO messageOrigin = new MessageDTO();
 		messageOrigin.setText(String.format("Connected as %s", username));
 
@@ -93,8 +95,8 @@ public class ChatWebSocket {
 		MessageDTO messageDTO;
 		try {
 			messageDTO = (MessageDTO) mapper.readValue(message.getBytes(), MessageDTO.class);
-			System.out.printf("Message received from %s: %s%n", getParameterValue(session, "username"),
-					messageDTO.getText());
+			logger.info(String.format("Message received from %s: %s%n", getParameterValue(session, "username"),
+					messageDTO.getText()));
 
 			// messageDTO.setText(String.format("%s: %s",
 			// getParameterValue(session, "username"), messageDTO.getText()));
