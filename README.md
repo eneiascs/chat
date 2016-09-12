@@ -10,5 +10,5 @@ Client:
 - Open http://localhost:8080/chat/
 
 Recompile:
--Run mvn install (Requires Apache Maven)
+- run mvn install (Requires Apache Maven)
 
