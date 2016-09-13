@@ -25,45 +25,57 @@
 			<h1>Chat - 4.2</h1>
 
 			<div ng-show="error" class="alert alert-danger">{{error}}</div>
-			<form name="form" ng-submit="connect()" role="form">
-				<div ng-show="isClosed()" class="form-group">
-					<label for="username">Username</label> <i class="fa fa-key"></i> <input
-						type="text" name="username" id="username" class="form-control"
-						ng-model="username" required /> <span
-						ng-show="form.username.$dirty && form.username.$error.required"
-						class="help-block">Username is required</span>
-				</div>
-				<div ng-show="isClosed()" class="form-group">
-					<label for="password">Password</label> <i class="fa fa-lock"></i> <input
-						type="password" name="password" id="password" class="form-control"
-						ng-model="password" required /> <span
-						ng-show="form.password.$dirty && form.password.$error.required"
-						class="help-block">Password is required</span>
-				</div>
-				<div ng-show="isClosed()&&isRegister" class="form-group">
-					<label for="confirmPassword">Confirm your Password</label> <i
-						class="fa fa-lock"></i> <input type="password"
-						name="confirmPassword" id="confirmPassword" class="form-control"
-						ng-model="confirmPassword" /> <span
-						ng-show="form.confirmPassword.$dirty && confirmPassword!=password"
-						class="help-block">Passwords don't match </span>
+<!-- 			Feature Authentication -->
+				<form ng-show="config.ClientAuthentication!==undefined" name="form"
+					ng-submit="connect()" role="form">
+					<div>
+						<div ng-show="isClosed()" class="form-group">
+							<label for="username">Username</label> <i class="fa fa-key"></i>
+							<input type="text" name="username" id="username"
+								class="form-control" ng-model="username" required /> <span
+								ng-show="form.username.$dirty && form.username.$error.required"
+								class="help-block">Username is required</span>
+						</div>
+						<div ng-show="isClosed()" class="form-group">
+							<label for="password">Password</label> <i class="fa fa-lock"></i>
+							<input type="password" name="password" id="password"
+								class="form-control" ng-model="password" required /> <span
+								ng-show="form.password.$dirty && form.password.$error.required"
+								class="help-block">Password is required</span>
+						</div>
+						<div ng-show="isClosed()&&isRegister" class="form-group">
+							<label for="confirmPassword">Confirm your Password</label> <i
+								class="fa fa-lock"></i> <input type="password"
+								name="confirmPassword" id="confirmPassword" class="form-control"
+								ng-model="confirmPassword" /> <span
+								ng-show="form.confirmPassword.$dirty && confirmPassword!=password"
+								class="help-block">Passwords don't match </span>
+
+						</div>
+					</div>
+					<div class="form-actions">
+						<button ng-if="isClosed()&&!isRegister" type="submit"
+							ng-disabled="form.$invalid " class="btn btn-danger ">Connect</button>
+						<button type="button" ng-if="isRegister" ng-click="cancel()"
+							class="btn btn-danger ">Cancel</button>
+						<button type="button" ng-if="isClosed()" ng-click="register()"
+							ng-disabled="isRegister&&(form.$invalid ||confirmPassword!=password)"
+							class="btn btn-danger ">Register</button>
+
+
+					</div>
+				</form>
+				<div ng-if="config.ClientAuthentication==undefined">
+					<button ng-if="isClosed()" ng-click="connectToWs()" class="btn btn-danger ">Connect</button>
+
+
 
 				</div>
-				<div class="form-actions">
-					<button ng-if="isClosed()&&!isRegister" type="submit"
-						ng-disabled="form.$invalid " class="btn btn-danger ">Login</button>
-					<button type="button" ng-if="isRegister" ng-click="cancel()"
-						class="btn btn-danger ">Cancel</button>
-					<button type="button" ng-if="isClosed()" ng-click="register()"
-						ng-disabled="isRegister&&(form.$invalid ||confirmPassword!=password)"
-						class="btn btn-danger ">Register</button>
 
-					<span ng-if="isOpen()">Connected as {{username}}</span>
-					<button type="button" ng-if="isOpen()" ng-click="disconnect()"
-						class="btn btn-danger">Logout</button>
-
-				</div>
-			</form>
+			
+			<span ng-if="isOpen()">Connected as {{username}}</span>
+			<button type="button" ng-if="isOpen()" ng-click="disconnect()"
+				class="btn btn-danger">Disconnect</button>
 
 
 
@@ -72,25 +84,22 @@
 				<br />
 
 				<div id="messages"
-					style="height: 500px; width: 400px; overflow-y: scroll; font-size: 0.8em; line-height: 1; border: solid; border-width: 1px">
+					style="height: 400px; width: 400px;  font-size: 0.8em; line-height: 1; border: solid; border-width: 1px">
 					<p
 						ng-style="messageStyle(message.textColor,message.backgroundColor)"
 						ng-repeat="message in messages track by $index">{{message.text}}</p>
 				</div>
-				<div id="messages"
-					style="width: 400px;  border: solid; border-width: 1px">
-					<input type="checkbox" ng-model="config.showColors">Show colors</input>
-					<input type="checkbox" ng-model="config.encryptMessages">Encrypt Messages</input>
-				</div>
+
+
 				<!-- 				Feature Colors -->
-				<div ng-if="config.showColors">
+				<div ng-if="config.Colors!==undefined">
 					<label>Text Color</label> <input type="color"
 						style="margin-left: 10px" width="20px"
 						ng-model="message.textColor"></input> <label>Background
 						Color</label> <input style="margin-left: 10px" type="color" width="20px"
 						ng-model="message.backgroundColor"></input> <br />
 				</div>
-				
+
 				<input
 					ng-style="messageStyle(message.textColor,message.backgroundColor)"
 					ng-model="message.text" onkeypress="" id="input-message"></input>

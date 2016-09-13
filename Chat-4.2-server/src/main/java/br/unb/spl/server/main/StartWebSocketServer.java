@@ -1,14 +1,10 @@
 package br.unb.spl.server.main;
 
 import java.io.IOException;
-import java.util.Properties;
 
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
-import org.springframework.core.io.ClassPathResource;
-import org.springframework.core.io.Resource;
-import org.springframework.core.io.support.PropertiesLoaderUtils;
 import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
@@ -29,9 +25,6 @@ public class StartWebSocketServer {
 	private void startJetty() {
 
 		try {
-			Resource resource = new ClassPathResource("/application.properties");
-			Properties props = PropertiesLoaderUtils.loadProperties(resource);
-			System.setProperty("logMessage", props.getProperty("logMessages"));
 
 			Server server = new Server(8090);
 			server.setHandler(getServletContextHandler(getContext()));
