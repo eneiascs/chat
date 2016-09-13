@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<featureModel chosenLayoutAlgorithm="1">
+		<struct>
+			<and abstract="true" mandatory="true" name="Chat">
+				<and abstract="true" mandatory="true" name="Server">
+					<feature name="ServerAuthentication"/>
+					<alt abstract="true" name="ServerMessageEncryption">
+						<feature mandatory="true" name="ServerAES_CBCEncryption"/>
+						<feature mandatory="true" name="ServerAES_ECBEncryption"/>
+					</alt>
+					<alt abstract="true" name="ServerMessageDecryption">
+						<feature mandatory="true" name="ServerAES_CBCDecryption"/>
+						<feature mandatory="true" name="ServerAES_ECBDecryption"/>
+					</alt>
+					<feature name="ServerMessagesHistory"/>
+				</and>
+				<and abstract="true" mandatory="true" name="Client">
+					<feature name="Colors"/>
+					<feature name="ClientAuthentication"/>
+					<alt abstract="true" name="ClientMessageEncryption">
+						<feature mandatory="true" name="ClientAES_CBCEncryption"/>
+						<feature mandatory="true" name="ClientAES_ECBEncryption"/>
+					</alt>
+					<alt abstract="true" name="ClientMessageDecryption">
+						<feature mandatory="true" name="ClientAES_CBCDecryption"/>
+						<feature mandatory="true" name="ClientAES_ECBDecryption"/>
+					</alt>
+					<feature name="ClientMessagesHistory"/>
+				</and>
+			</and>
+		</struct>
+		<constraints>
+			<rule>
+				<eq>
+					<var>ClientAuthentication</var>
+					<var>ServerAuthentication</var>
+				</eq>
+			</rule>
+			<rule>
+				<imp>
+					<disj>
+						<var>ClientAES_ECBEncryption</var>
+						<var>ServerAES_ECBEncryption</var>
+					</disj>
+					<var>ClientAES_ECBDecryption</var>
+				</imp>
+			</rule>
+			<rule>
+				<imp>
+					<disj>
+						<var>ClientAES_CBCEncryption</var>
+						<var>ServerAES_CBCEncryption</var>
+					</disj>
+					<var>ClientAES_CBCDecryption</var>
+				</imp>
+			</rule>
+			<rule>
+				<eq>
+					<conj>
+						<var>ServerMessagesHistory</var>
+						<var>ClientAES_CBCEncryption</var>
+					</conj>
+					<var>ServerAES_CBCDecryption</var>
+				</eq>
+			</rule>
+			<rule>
+				<eq>
+					<conj>
+						<var>ServerMessagesHistory</var>
+						<var>ClientAES_ECBEncryption</var>
+					</conj>
+					<var>ServerAES_ECBDecryption</var>
+				</eq>
+			</rule>
+			<rule>
+				<imp>
+					<var>ClientAES_CBCDecryption</var>
+					<var>ClientAES_CBCEncryption</var>
+				</imp>
+			</rule>
+			<rule>
+				<imp>
+					<var>ClientAES_ECBDecryption</var>
+					<var>ClientAES_ECBEncryption</var>
+				</imp>
+			</rule>
+		</constraints>
+		<calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+		<comments/>
+		<featureOrder userDefined="false"/>
+	</featureModel>
