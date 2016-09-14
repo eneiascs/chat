@@ -59,14 +59,7 @@ public class ChatWebSocket {
 
 	@OnWebSocketConnect
 	public void onConnect(Session session) {
-		String username;
-
-		// Feature Authentication
-		if (ConfigLoader.getConfig().getProperty("ServerAuthentication") != null) {
-			username = getParameterValue(session, "username");
-		} else {
-			username = session.getRemoteAddress().toString();
-		}
+		String username = getParameterValue(session, "username");
 
 		debugLog.info(String.format("Got connect: %s %n", username));
 

@@ -32,7 +32,7 @@ chat.run(function(cfCryptoHttpInterceptor, $rootScope) {
 	// .parse("3ad77bb40d7a3660a89ecaf32466ef97");
 
 	$rootScope.base64Key = CryptoJS.enc.Base64.parse("Secret Passphrase");
-	
+
 	$rootScope.iv = CryptoJS.enc.Base64.parse("RandomInitVector");
 	$(document).ready(function() {
 		$("#input-message").keypress(function(event) {
@@ -51,22 +51,20 @@ function($rootScope, $scope, $http, $location, configFactory) {
 
 		var encrypted = CryptoJS.AES.encrypt(message, $rootScope.base64Key, {
 			iv : $rootScope.iv,
-			mode: CryptoJS.mode.CBC, 
-			padding: CryptoJS.pad.Pkcs7
+			mode : CryptoJS.mode.CBC,
+			padding : CryptoJS.pad.Pkcs7
 		});
-		
+
 		return encrypted.ciphertext.toString(CryptoJS.enc.Base64);
 
 	}
-	
-	
+
 	$scope.encryptAesEcb = function(message) {
 
-	
-		return CryptoJS.AES.encrypt(message,"Secret Passphrase", {
-			
-			//mode: CryptoJS.mode.ECB, 
-			//padding: CryptoJS.pad.Pkcs7
+		return CryptoJS.AES.encrypt(message, "Secret Passphrase", {
+
+		// mode: CryptoJS.mode.ECB,
+		// padding: CryptoJS.pad.Pkcs7
 		}).toString();
 
 	}
@@ -77,23 +75,22 @@ function($rootScope, $scope, $http, $location, configFactory) {
 		var decrypted = CryptoJS.AES.decrypt(cipherParams,
 				$rootScope.base64Key, {
 					iv : $rootScope.iv,
-					mode: CryptoJS.mode.CBC, 
-					padding: CryptoJS.pad.Pkcs7
+					mode : CryptoJS.mode.CBC,
+					padding : CryptoJS.pad.Pkcs7
 				});
-		
+
 		return decrypted.toString(CryptoJS.enc.Utf8);
 	}
 
-	$scope.decryptAesEcb= function(message) {
+	$scope.decryptAesEcb = function(message) {
 
+		return CryptoJS.AES.decrypt(message, "Secret Passphrase", {
 
-        return CryptoJS.AES.decrypt(message, "Secret Passphrase", {
-			
-			//mode: CryptoJS.mode.ECB, 
-			//padding: CryptoJS.pad.Pkcs7
+		// mode: CryptoJS.mode.ECB,
+		// padding: CryptoJS.pad.Pkcs7
 		}).toString(CryptoJS.enc.Utf8)
-    }
-	
+	}
+
 	$scope.safeApply = function(fn) {
 		if (this.$root) {
 			var phase = this.$root.$$phase;
@@ -205,7 +202,7 @@ function($rootScope, $scope, $http, $location, configFactory) {
 			// called when socket
 			// connection closed
 			$scope.ws.onclose = function() {
-				
+
 				var message = {};
 				message.text = "Disconnected from chat service!";
 				$scope.appendMessage(message);
@@ -293,7 +290,6 @@ function($rootScope, $scope, $http, $location, configFactory) {
 
 			$http(req).success(function(data) {
 
-
 				if (data == "OK") {
 					$scope.isRegister = false;
 					$scope.connect();
@@ -318,7 +314,7 @@ function($rootScope, $scope, $http, $location, configFactory) {
 		$scope.confirmPassword = "";
 
 	}
-	
+
 	$scope.config = {}
 	configFactory.getConfig().then(
 			function(response) {
@@ -333,8 +329,12 @@ function($rootScope, $scope, $http, $location, configFactory) {
 				$scope.message.textColor = "#000000";
 				$scope.message.backgroundColor = "#ffffff";
 				$scope.messages = [];
-
-				$scope.username = "";
+				if ($scope.config.ClientAuthentication == undefined) {
+					$scope.username = "guest"
+							+ Math.floor((Math.random() * 200) + 1);
+				} else {
+					$scope.username = ""
+				}
 				$scope.password = "";
 				$scope.confirmPassword = "";
 				$scope.isRegister = false;
