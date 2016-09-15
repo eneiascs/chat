@@ -4,11 +4,11 @@
 			<and abstract="true" mandatory="true" name="Chat">
 				<and abstract="true" mandatory="true" name="Server">
 					<feature name="ServerAuthentication"/>
-					<alt abstract="true" name="ServerMessageEncryption">
+					<alt name="ServerMessageEncryption">
 						<feature mandatory="true" name="ServerAES_CBCEncryption"/>
 						<feature mandatory="true" name="ServerAES_ECBEncryption"/>
 					</alt>
-					<alt abstract="true" name="ServerMessageDecryption">
+					<alt name="ServerMessageDecryption">
 						<feature mandatory="true" name="ServerAES_CBCDecryption"/>
 						<feature mandatory="true" name="ServerAES_ECBDecryption"/>
 					</alt>
@@ -37,22 +37,28 @@
 				</eq>
 			</rule>
 			<rule>
-				<imp>
-					<disj>
-						<var>ClientAES_ECBEncryption</var>
-						<var>ServerAES_ECBEncryption</var>
-					</disj>
+				<eq>
+					<var>ClientAES_ECBEncryption</var>
 					<var>ClientAES_ECBDecryption</var>
-				</imp>
+				</eq>
 			</rule>
 			<rule>
-				<imp>
-					<disj>
-						<var>ClientAES_CBCEncryption</var>
-						<var>ServerAES_CBCEncryption</var>
-					</disj>
+				<eq>
+					<var>ClientAES_CBCEncryption</var>
 					<var>ClientAES_CBCDecryption</var>
-				</imp>
+				</eq>
+			</rule>
+			<rule>
+				<eq>
+					<var>ClientAES_CBCEncryption</var>
+					<var>ServerAES_CBCEncryption</var>
+				</eq>
+			</rule>
+			<rule>
+				<eq>
+					<var>ClientAES_ECBEncryption</var>
+					<var>ServerAES_ECBEncryption</var>
+				</eq>
 			</rule>
 			<rule>
 				<eq>
@@ -71,18 +77,6 @@
 					</conj>
 					<var>ServerAES_ECBDecryption</var>
 				</eq>
-			</rule>
-			<rule>
-				<imp>
-					<var>ClientAES_CBCDecryption</var>
-					<var>ClientAES_CBCEncryption</var>
-				</imp>
-			</rule>
-			<rule>
-				<imp>
-					<var>ClientAES_ECBDecryption</var>
-					<var>ClientAES_ECBEncryption</var>
-				</imp>
 			</rule>
 		</constraints>
 		<calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
