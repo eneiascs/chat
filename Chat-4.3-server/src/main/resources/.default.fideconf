@@ -1,0 +1,22 @@
+# Lists all features from the model with manual (first digit) and automatic (second digit) selection
+# 0 = deselected, 1 = selected, 2 = undefined
+21Chat
+21Server
+22ServerAuthentication
+11ServerMessageEncryption
+20ServerAES_CBCEncryption
+12ServerAES_ECBEncryption
+21ServerMessageDecryption
+20ServerAES_CBCDecryption
+21ServerAES_ECBDecryption
+12ServerMessagesHistory
+21Client
+22Colors
+22ClientAuthentication
+21ClientMessageEncryption
+20ClientAES_CBCEncryption
+21ClientAES_ECBEncryption
+21ClientMessageDecryption
+20ClientAES_CBCDecryption
+21ClientAES_ECBDecryption
+22ClientMessagesHistory
