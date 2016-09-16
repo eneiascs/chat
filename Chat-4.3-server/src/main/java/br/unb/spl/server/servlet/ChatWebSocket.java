@@ -17,7 +17,7 @@ import org.eclipse.jetty.websocket.api.annotations.WebSocket;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import br.unb.spl.server.controller.ConfigLoader;
+import br.unb.spl.server.config.ConfigLoader;
 import br.unb.spl.server.dto.Sessions;
 import br.unb.spl.server.message.EncryptedMessage;
 import br.unb.spl.server.message.HandleMessageSubject;
@@ -105,7 +105,7 @@ public class ChatWebSocket {
 
 		message.handleMessage(text);
 
-		message.createMessage(message.getText());
+		// message.createMessage(message.getText());
 
 		sendAll(message);
 

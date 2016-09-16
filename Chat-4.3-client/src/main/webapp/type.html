@@ -1,0 +1,14 @@
+<html data-ng-app="myApp">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body>
+    <div data-ng-controller="MyController as mc">
+        <div data-ng-repeat="element in mc.data">
+            <label>{{element}}</label>
+        </div>
+        <my-directive></my-directive>
+    </div>
+</body>
+</html>

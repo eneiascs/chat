@@ -1,12 +1,9 @@
-package br.unb.spl.server.service.impl;
+package br.unb.spl.server.user;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import org.springframework.stereotype.Component;
-
-import br.unb.spl.server.entity.User;
-import br.unb.spl.server.service.UserService;
 
 @Component
 public class UserServiceImpl implements UserService {

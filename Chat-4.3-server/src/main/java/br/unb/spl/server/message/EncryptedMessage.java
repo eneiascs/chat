@@ -3,7 +3,7 @@ package br.unb.spl.server.message;
 import br.unb.spl.server.cipher.Encryptor;
 import br.unb.spl.server.cipher.EncryptorAesCbc;
 import br.unb.spl.server.cipher.EncryptorAesEcb;
-import br.unb.spl.server.controller.ConfigLoader;
+import br.unb.spl.server.config.ConfigLoader;
 
 public class EncryptedMessage extends MessageDecorator {
 	protected Encryptor encryptor;

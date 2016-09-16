@@ -27,4 +27,19 @@ public abstract class MessageDecorator implements IMessage {
 
 	}
 
+	public String getTextColor() {
+		return message.getTextColor();
+	}
+
+	public void setTextColor(String textColor) {
+		message.setTextColor(textColor);
+	}
+
+	public String getBackgroundColor() {
+		return message.getBackgroundColor();
+	}
+
+	public void setBackgroundColor(String backgroundColor) {
+		message.setBackgroundColor(backgroundColor);
+	}
 }

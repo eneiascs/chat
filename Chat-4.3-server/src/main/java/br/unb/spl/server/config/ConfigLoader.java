@@ -1,4 +1,4 @@
-package br.unb.spl.server.controller;
+package br.unb.spl.server.config;
 
 import java.io.IOException;
 import java.util.Properties;

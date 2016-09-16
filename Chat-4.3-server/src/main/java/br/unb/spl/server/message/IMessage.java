@@ -10,4 +10,11 @@ public interface IMessage {
 
 	public void setText(String text);
 
+	public String getTextColor();
+
+	public void setTextColor(String textColor);
+
+	public String getBackgroundColor();
+
+	public void setBackgroundColor(String backgroundColor);
 }

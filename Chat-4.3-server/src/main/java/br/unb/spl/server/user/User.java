@@ -1,4 +1,4 @@
-package br.unb.spl.server.entity;
+package br.unb.spl.server.user;
 
 public class User {
 	private String username;

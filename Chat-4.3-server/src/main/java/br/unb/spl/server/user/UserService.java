@@ -1,6 +1,4 @@
-package br.unb.spl.server.service;
-
-import br.unb.spl.server.entity.User;
+package br.unb.spl.server.user;
 
 public interface UserService {
 	public String registerUser(User user);
