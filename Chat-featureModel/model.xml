@@ -17,11 +17,11 @@
 				<and abstract="true" mandatory="true" name="Client">
 					<feature name="Colors"/>
 					<feature name="ClientAuthentication"/>
-					<alt abstract="true" name="ClientMessageEncryption">
+					<alt name="ClientMessageEncryption">
 						<feature mandatory="true" name="ClientAES_CBCEncryption"/>
 						<feature mandatory="true" name="ClientAES_ECBEncryption"/>
 					</alt>
-					<alt abstract="true" name="ClientMessageDecryption">
+					<alt name="ClientMessageDecryption">
 						<feature mandatory="true" name="ClientAES_CBCDecryption"/>
 						<feature mandatory="true" name="ClientAES_ECBDecryption"/>
 					</alt>
