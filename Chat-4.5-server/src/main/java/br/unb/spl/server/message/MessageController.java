@@ -26,7 +26,7 @@ public class MessageController {
 
 		message = message.createMessage(msg.getText());
 		message.setTextColor(msg.getTextColor());
-		message.getText();
+
 		message.setBackgroundColor(msg.getBackgroundColor());
 		return message;
 	}
@@ -39,7 +39,8 @@ public class MessageController {
 		IMessage message = MessageHandleDecoratorFactory.getInstance();
 
 		message = message.handleMessage(msg.getText());
-
+		message.setBackgroundColor(msg.getBackgroundColor());
+		message.setTextColor(msg.getTextColor());
 		return message;
 	}
 
