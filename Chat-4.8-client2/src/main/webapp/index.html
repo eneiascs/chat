@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="lib/bootstrap/font-awesome.min.css">
+<link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css" />
+</head>
+<body ng-app="chat" ng-controller="chatController">
+<script type="text/javascript" src="lib/jquery/jquery-3.1.0.min.js"></script>
+
+
+	<script src="lib/angular/angular.min.js"></script>
+
+	
+
+
+	<script src="js/chat.js"></script>
+	<script src="lib/angular/angularjs-crypto.js"></script>
+	<script src="lib/angular/CryptoJSCipher.js"></script>
+	<script src="lib/angular/aes.js"></script>
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Chat - 4.5</h1>
+
+			<div ng-show="error" class="alert alert-danger">{{error}}</div>
+
+
+
+			<!-- 			Feature Authentication -->
+			<div ng-feature="authentication.html" ></div>
+				
+			
+						<span ng-if="isOpen()">Connected as {{username}}</span>
+			<button type="button" ng-if="isOpen()" ng-click="disconnect()"
+				class="btn btn-danger">Disconnect</button>
+
+
+
+			<div ng-show="isOpen()">
+
+				<br />
+
+				<div width: 400px;  font-size: 0.8em; line-height: 1; border:solid; border-width: 1px">
+					<p
+						ng-style="messageStyle(lastMessage.textColor,lastMessage.backgroundColor)"
+						>Last message: {{lastMessage.text}}</p>
+				</div>
+
+
+
+				
+				
+								
+				<input ng-style="messageStyle(textColor,backgroundColor)"
+					ng-model="text" onkeypress="" id="input-message"></input>
+
+				<button id="btnSend"
+					ng-click="sendToServer(text,textColor,backgroundColor)">Send</button>
+				<br /> <br />
+			</div>
+		</div>
+	</div>
+
+
+
+
+</body>
+</html>
