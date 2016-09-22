@@ -20,14 +20,14 @@
 	<script src="lib/angular/aes.js"></script>
 	<div class="jumbotron">
 		<div class="container">
-			<h1>Chat - 4.5</h1>
+			<h1>Chat - 4.8</h1>
 
 			<div ng-show="error" class="alert alert-danger">{{error}}</div>
 
 
 
 			<!-- 			Feature Authentication -->
-			<div ng-feature="authentication.html" ></div>
+			<div ng-feature="authentication" ></div>
 				
 			
 						<span ng-if="isOpen()">Connected as {{username}}</span>
@@ -47,10 +47,10 @@
 				</div>
 
 
-
+			<div ng-feature="history" ></div>
 				
 				
-								
+							<div ng-feature="color" ></div>	
 				<input ng-style="messageStyle(textColor,backgroundColor)"
 					ng-model="text" onkeypress="" id="input-message"></input>
 

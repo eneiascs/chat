@@ -41,7 +41,21 @@ chat.factory('messageFactory',
 					return messageFactory;
 				} ]);
 
+chat.factory('historyFactory', [ '$http', function($http) {
 
+	var urlBase = 'http://localhost:8090/history';
+	var historyFactory = {};
+	var config = {
+		headers : {
+			'Content-Type' : 'application/json;'
+		}
+	}
+
+	historyFactory.getHistory = function() {
+		return $http.get(urlBase + '/');
+	};
+	return historyFactory;
+} ]);
 chat.factory('htmlFactory', [ '$http', function($http) {
 
 	var urlBase = 'http://localhost:8090/html';
@@ -109,7 +123,7 @@ chat
 				"chatController",
 
 				function($rootScope, $scope, $document, $http, $location,
-						$compile, userFactory, messageFactory,
+						$compile, userFactory, messageFactory,historyFactory,
 						htmlFactory) {
 					$scope.server = 'localhost:8090'
 
@@ -211,7 +225,26 @@ chat
 
 													$scope.lastMessage = response.data;
 
-													
+													$scope
+													.safeApply(function() {
+														historyFactory
+																.getHistory()
+																.then(
+																		function(
+																				response) {
+
+																			$scope.messages = response.data;
+
+																		},
+																		function(
+																				error) {
+																			$scope.error = 'Server error';
+																			console
+																					.log('Unable to send message to server: '
+																							+ error.message);
+																		});
+
+													});
 
 												},
 												function(error) {

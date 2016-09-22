@@ -21,6 +21,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import br.unb.spl.module.encryption.EncryptionModule;
 import br.unb.spl.server.dto.Sessions;
+import br.unb.spl.server.history.HistoryModule;
 import br.unb.spl.server.message.IMessage;
 import br.unb.spl.server.message.Message;
 
@@ -85,6 +86,10 @@ public class ChatWebSocket {
 			message.setBackgroundColor(msg.getBackgroundColor());
 			message.setTextColor(msg.getTextColor());
 			sendAll(msg);
+			HistoryModule historyModule = HistoryModule.getInstance();
+			EncryptionModule encryptionModule = EncryptionModule.getInstance();
+			message.setText(encryptionModule.decrypt(message.getText()));
+			historyModule.addToHistory(message);
 
 		} catch (JsonParseException e) {
 			// TODO Auto-generated catch block
