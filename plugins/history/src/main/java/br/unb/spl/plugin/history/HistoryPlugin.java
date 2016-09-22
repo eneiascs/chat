@@ -12,6 +12,7 @@ public class HistoryPlugin implements IPlugin {
 		HistoryFactory.setDiv(HtmlLoader.getHtml("history.html"));
 		HandleMessageSubjectFactory.register(new HistoryHandleMessageObserver());
 		MessageHandleDecoratorFactory.addDecorator(HistoryMessage.class);
+
 	}
 
 }

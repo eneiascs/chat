@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
+import br.unb.spl.server.history.HistoryFactory;
 import br.unb.spl.server.message.IMessage;
 
 @Component
@@ -17,6 +18,7 @@ public class MessageServiceImpl implements HistoryService {
 
 		}
 		history.add(message);
+		HistoryFactory.setHistory(history);
 	}
 
 	public List<IMessage> getHistory() {
