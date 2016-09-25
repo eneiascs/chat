@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import br.unb.spl.server.config.HtmlLoader;
+
 @RequestMapping("/html")
 @Controller
 @SuppressWarnings("UnusedDeclaration")
@@ -16,7 +18,7 @@ public class ColorController {
 
 	public @ResponseBody String getDivColor() {
 
-		return ColorFactory.getDiv();
+		return HtmlLoader.getHtml("color.html");
 	}
 
 }
