@@ -1,0 +1,20 @@
+/**
+ * TODO description
+ */
+refines class Message {
+	public void handleMessage() {
+
+		super.handleMessage();
+		Resource resource = new ClassPathResource("/sound.mp3");
+		InputStream in = new FileInputStream(resource);
+
+		
+		AudioStream as = new AudioStream(in);         
+
+		
+		AudioPlayer.player.start(as);            
+
+		
+		//AudioPlayer.player.stop(as); 
+	}
+}

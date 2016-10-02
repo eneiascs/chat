@@ -1,0 +1,21 @@
+/**
+ * TODO description
+
+ */
+import org.apache.log4j.Logger;
+import br.unb.spl.server.history.HistoryService;
+
+import org.springframework.beans.factory.annotation.Configurable;
+import org.springframework.stereotype.Service;
+import br.unb.spl.server.config.ApplicationContextHolder;
+public refines class Message {
+	private static final Logger messagesLog = Logger.getLogger("messagesLogger");
+	public void handleMessageServer() {
+		super.handleMessageServer();
+		HistoryService historyService = ApplicationContextHolder.getContext().getBean(HistoryService.class);
+		
+		this.handleMessage();
+		historyService.addToHistory(this);
+		return;
+	}
+}

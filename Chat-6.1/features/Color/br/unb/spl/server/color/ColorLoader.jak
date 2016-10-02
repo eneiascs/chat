@@ -1,0 +1,10 @@
+/**
+ * TODO description
+ */
+import br.unb.spl.server.main.HtmlLoader;
+refines class ColorLoader {
+	public static String getDivColor() {
+		// TODO Auto-generated method stub
+		return HtmlLoader.getHtml("color.html");
+	}
+}

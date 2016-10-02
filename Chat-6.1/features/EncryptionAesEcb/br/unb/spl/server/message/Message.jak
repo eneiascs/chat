@@ -1,0 +1,19 @@
+/**
+ * TODO description
+ */
+refines class Message {
+	protected Encryptor encryptor=new Encryptor();
+	public void handleMessage() {
+
+		//Super.handleMessage();
+		
+		this.setText(encryptor.decrypt(this.getText()));
+		return;
+	}
+
+	public void onCreate() {
+		//Super.onCreate();
+		this.setText(encryptor.encrypt(this.getText()));
+		return;
+	}
+}

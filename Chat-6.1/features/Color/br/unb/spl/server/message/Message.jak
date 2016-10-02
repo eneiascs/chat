@@ -1,0 +1,22 @@
+/**
+ * TODO description
+ */
+refines class Message {
+	protected String textColor;
+	protected String backgroundColor;
+	public String getTextColor() {
+		return textColor;
+	}
+
+	public void setTextColor(String textColor) {
+		this.textColor = textColor;
+	}
+
+	public String getBackgroundColor() {
+		return backgroundColor;
+	}
+
+	public void setBackgroundColor(String backgroundColor) {
+		this.backgroundColor = backgroundColor;
+	}
+}

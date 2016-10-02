@@ -1,0 +1,15 @@
+/**
+ * TODO description
+ */
+import br.unb.spl.server.main.HtmlLoader;
+import java.util.List;
+
+class HistoryLoader {
+	public static String getDivHistory() {
+		return null;
+	}
+	public static List getHistory() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

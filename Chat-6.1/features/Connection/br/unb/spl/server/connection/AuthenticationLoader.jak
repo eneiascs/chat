@@ -1,0 +1,10 @@
+/**
+ * TODO description
+ */
+import br.unb.spl.server.main.HtmlLoader;
+public class AuthenticationLoader {
+	public static String getDivAuthentication() {
+		// TODO Auto-generated method stub
+		return HtmlLoader.getHtml("no-authentication.html");
+	}
+}

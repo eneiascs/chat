@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<featureModel chosenLayoutAlgorithm="1">
+		<struct>
+			<and mandatory="true" name="Chat">
+				<and mandatory="true" name="Connection">
+					<feature name="Authentication"/>
+				</and>
+				<and mandatory="true" name="Message">
+					<feature name="Color"/>
+					<feature name="History"/>
+					<alt abstract="true" name="MessageEncryption">
+						<feature mandatory="true" name="EncryptionAesCbc"/>
+						<feature mandatory="true" name="EncryptionAesEcb"/>
+					</alt>
+					<feature name="SpamFilter"/>
+					<feature name="Sound"/>
+				</and>
+			</and>
+		</struct>
+		<constraints/>
+		<calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+		<comments/>
+		<featureOrder userDefined="true">
+			<feature name="Chat"/>
+			<feature name="Connection"/>
+			<feature name="Authentication"/>
+			<feature name="Message"/>
+			<feature name="EncryptionAesCbc"/>
+			<feature name="EncryptionAesEcb"/>
+			<feature name="History"/>
+			<feature name="Color"/>
+			<feature name="SpamFilter"/>
+		</featureOrder>
+	</featureModel>
