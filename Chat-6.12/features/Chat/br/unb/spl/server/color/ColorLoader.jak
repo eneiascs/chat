@@ -1,0 +1,9 @@
+/**
+ * TODO description
+ */
+import br.unb.spl.server.main.HtmlLoader;
+class ColorLoader {
+	public static String getDivColor() {
+		return null;
+	}
+}

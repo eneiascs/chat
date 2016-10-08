@@ -1,0 +1,18 @@
+/**
+ * TODO description
+ */
+import br.unb.spl.server.config.ApplicationContextHolder;
+import br.unb.spl.server.main.HtmlLoader;
+
+public refines class HistoryLoader {
+	public static String getDivHistory() {
+		return HtmlLoader.getHtml("history.html");
+
+	}
+	public static List getHistory() {
+		
+		HistoryService historyService = ApplicationContextHolder.getContext().getBean(HistoryService.class);
+		return historyService.getHistory();
+	}
+	
+}

@@ -1,0 +1,27 @@
+/**
+ * TODO description
+ */
+public class Message {
+	protected String text; 
+	
+	public String getText() {
+		
+		return text;
+	}
+
+	public void setText(String text) {
+		this.text = text;
+	}
+	public void handleMessage() {
+	
+		return;
+	}
+	public void handleMessageServer() {
+		
+		return;
+	}
+	public void onCreate() {
+		
+		return;
+	}
+}
