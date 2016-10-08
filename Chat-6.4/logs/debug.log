@@ -1,0 +1,1042 @@
+2016-10-02 12:19:13,742 [      ChatWebSocket.java:qtp1286783232-17:63] - Got connect: guest39 
+
+2016-10-02 12:19:13,745 [      ChatWebSocket.java:qtp1286783232-17:67] - Active sessions: 1 
+2016-10-02 12:24:13,795 [      ChatWebSocket.java:Scheduler-1268650975:51] - Connection closed: 1001 - Idle Timeout
+
+2016-10-02 12:24:13,795 [      ChatWebSocket.java:Scheduler-1268650975:55] - Active sessions: 0 
+2016-10-02 12:30:47,578 [      ChatWebSocket.java:qtp1286783232-18:63] - Got connect: guest191 
+
+2016-10-02 12:30:47,582 [      ChatWebSocket.java:qtp1286783232-18:67] - Active sessions: 1 
+2016-10-02 12:30:47,824 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 12:31:18,283 [  MessageController.java:qtp1286783232-24:21] - Creating message
+2016-10-02 12:31:18,328 [  MessageController.java:qtp1286783232-17:33] - Handling message
+2016-10-02 12:31:19,550 [  MessageController.java:qtp1286783232-23:21] - Creating message
+2016-10-02 12:31:19,579 [  MessageController.java:qtp1286783232-24:33] - Handling message
+2016-10-02 12:31:20,770 [  MessageController.java:qtp1286783232-17:21] - Creating message
+2016-10-02 12:31:20,801 [  MessageController.java:qtp1286783232-23:33] - Handling message
+2016-10-02 12:35:34,740 [      ChatWebSocket.java:qtp1286783232-17:63] - Got connect: guest77 
+
+2016-10-02 12:35:34,745 [      ChatWebSocket.java:qtp1286783232-17:67] - Active sessions: 1 
+2016-10-02 12:35:34,880 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 12:35:36,168 [  MessageController.java:qtp1286783232-18:21] - Creating message
+2016-10-02 12:35:36,207 [  MessageController.java:qtp1286783232-17:33] - Handling message
+2016-10-02 12:35:37,436 [  MessageController.java:qtp1286783232-18:21] - Creating message
+2016-10-02 12:35:37,460 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 12:35:39,285 [  MessageController.java:qtp1286783232-17:21] - Creating message
+2016-10-02 12:35:39,318 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 12:40:39,305 [      ChatWebSocket.java:Scheduler-1268650975:51] - Connection closed: 1001 - Idle Timeout
+
+2016-10-02 12:40:39,305 [      ChatWebSocket.java:Scheduler-1268650975:55] - Active sessions: 0 
+2016-10-02 13:09:55,066 [      ChatWebSocket.java:qtp835648992-17:63] - Got connect: guest146 
+
+2016-10-02 13:09:55,070 [      ChatWebSocket.java:qtp835648992-17:67] - Active sessions: 1 
+2016-10-02 13:09:55,245 [  MessageController.java:qtp835648992-13:33] - Handling message
+2016-10-02 13:09:58,247 [  MessageController.java:qtp835648992-19:21] - Creating message
+2016-10-02 13:09:58,281 [  MessageController.java:qtp835648992-17:33] - Handling message
+2016-10-02 13:09:59,449 [  MessageController.java:qtp835648992-13:21] - Creating message
+2016-10-02 13:09:59,478 [  MessageController.java:qtp835648992-10:33] - Handling message
+2016-10-02 13:10:00,633 [  MessageController.java:qtp835648992-11:21] - Creating message
+2016-10-02 13:10:00,665 [  MessageController.java:qtp835648992-16:33] - Handling message
+2016-10-02 13:15:00,655 [      ChatWebSocket.java:Scheduler-485815673:51] - Connection closed: 1001 - Idle Timeout
+
+2016-10-02 13:15:00,655 [      ChatWebSocket.java:Scheduler-485815673:55] - Active sessions: 0 
+2016-10-02 16:57:18,221 [      ChatWebSocket.java:qtp1286783232-19:63] - Got connect: guest173 
+
+2016-10-02 16:57:18,224 [      ChatWebSocket.java:qtp1286783232-19:67] - Active sessions: 1 
+2016-10-02 16:57:18,270 [  MessageController.java:qtp1286783232-17:33] - Handling message
+2016-10-02 16:57:20,346 [  MessageController.java:qtp1286783232-19:21] - Creating message
+2016-10-02 16:57:20,387 [  MessageController.java:qtp1286783232-17:33] - Handling message
+2016-10-02 16:57:21,487 [  MessageController.java:qtp1286783232-18:21] - Creating message
+2016-10-02 16:57:21,537 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 16:58:05,102 [      ChatWebSocket.java:qtp1286783232-20:63] - Got connect: guest153 
+
+2016-10-02 16:58:05,107 [      ChatWebSocket.java:qtp1286783232-20:67] - Active sessions: 1 
+2016-10-02 16:58:05,232 [  MessageController.java:qtp1286783232-12:33] - Handling message
+2016-10-02 17:08:38,676 [      ChatWebSocket.java:qtp1286783232-14:63] - Got connect: guest52 
+
+2016-10-02 17:08:38,680 [      ChatWebSocket.java:qtp1286783232-14:67] - Active sessions: 1 
+2016-10-02 17:08:38,706 [  MessageController.java:qtp1286783232-23:33] - Handling message
+2016-10-02 17:08:40,655 [  MessageController.java:qtp1286783232-12:21] - Creating message
+2016-10-02 17:08:40,693 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 17:08:42,350 [  MessageController.java:qtp1286783232-17:21] - Creating message
+2016-10-02 17:08:42,413 [  MessageController.java:qtp1286783232-23:33] - Handling message
+2016-10-02 17:17:59,247 [      ChatWebSocket.java:qtp835648992-17:63] - Got connect: guest136 
+
+2016-10-02 17:17:59,250 [      ChatWebSocket.java:qtp835648992-17:67] - Active sessions: 1 
+2016-10-02 17:17:59,251 [          Encryptor.java:qtp835648992-17:20] - Encrypting message with AES/CBC
+2016-10-02 17:18:00,348 [  MessageController.java:qtp835648992-9:33] - Handling message
+2016-10-02 17:18:00,348 [          Encryptor.java:qtp835648992-9:41] - Decrypting message with AES/CBC
+2016-10-02 17:18:02,482 [  MessageController.java:qtp835648992-19:21] - Creating message
+2016-10-02 17:18:02,482 [          Encryptor.java:qtp835648992-19:20] - Encrypting message with AES/CBC
+2016-10-02 17:18:02,498 [          Encryptor.java:qtp835648992-9:41] - Decrypting message with AES/CBC
+2016-10-02 17:18:02,516 [  MessageController.java:qtp835648992-17:33] - Handling message
+2016-10-02 17:18:02,516 [          Encryptor.java:qtp835648992-17:41] - Decrypting message with AES/CBC
+2016-10-02 17:18:04,171 [  MessageController.java:qtp835648992-16:21] - Creating message
+2016-10-02 17:18:04,171 [          Encryptor.java:qtp835648992-16:20] - Encrypting message with AES/CBC
+2016-10-02 17:18:04,183 [          Encryptor.java:qtp835648992-19:41] - Decrypting message with AES/CBC
+2016-10-02 17:18:04,205 [  MessageController.java:qtp835648992-11:33] - Handling message
+2016-10-02 17:18:04,206 [          Encryptor.java:qtp835648992-11:41] - Decrypting message with AES/CBC
+2016-10-02 17:18:47,102 [      ChatWebSocket.java:qtp1286783232-14:63] - Got connect: guest23 
+
+2016-10-02 17:18:47,105 [      ChatWebSocket.java:qtp1286783232-14:67] - Active sessions: 1 
+2016-10-02 17:18:47,106 [          Encryptor.java:qtp1286783232-14:20] - Encrypting message with AES/CBC
+2016-10-02 17:18:47,356 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 17:18:47,357 [          Encryptor.java:qtp1286783232-19:41] - Decrypting message with AES/CBC
+2016-10-02 17:19:12,837 [      ChatWebSocket.java:qtp1286783232-14:63] - Got connect: guest185 
+
+2016-10-02 17:19:12,838 [      ChatWebSocket.java:qtp1286783232-14:67] - Active sessions: 2 
+2016-10-02 17:19:12,838 [          Encryptor.java:qtp1286783232-14:20] - Encrypting message with AES/CBC
+2016-10-02 17:19:12,855 [  MessageController.java:qtp1286783232-21:33] - Handling message
+2016-10-02 17:19:12,856 [          Encryptor.java:qtp1286783232-21:41] - Decrypting message with AES/CBC
+2016-10-02 17:19:12,890 [  MessageController.java:qtp1286783232-17:33] - Handling message
+2016-10-02 17:19:12,890 [          Encryptor.java:qtp1286783232-17:41] - Decrypting message with AES/CBC
+2016-10-02 17:20:20,802 [  MessageController.java:qtp1286783232-14:21] - Creating message
+2016-10-02 17:21:00,616 [          Encryptor.java:qtp1286783232-14:20] - Encrypting message with AES/CBC
+2016-10-02 17:21:18,724 [          Encryptor.java:qtp1286783232-18:41] - Decrypting message with AES/CBC
+2016-10-02 17:21:18,750 [  MessageController.java:qtp1286783232-12:33] - Handling message
+2016-10-02 17:21:18,753 [          Encryptor.java:qtp1286783232-12:41] - Decrypting message with AES/CBC
+2016-10-02 17:21:18,756 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 17:21:18,757 [          Encryptor.java:qtp1286783232-19:41] - Decrypting message with AES/CBC
+2016-10-02 17:21:52,642 [  MessageController.java:qtp1286783232-14:21] - Creating message
+2016-10-02 17:21:55,483 [          Encryptor.java:qtp1286783232-14:20] - Encrypting message with AES/CBC
+2016-10-02 17:21:56,157 [          Encryptor.java:qtp1286783232-19:41] - Decrypting message with AES/CBC
+2016-10-02 17:21:56,189 [  MessageController.java:qtp1286783232-17:33] - Handling message
+2016-10-02 17:21:56,191 [  MessageController.java:qtp1286783232-18:33] - Handling message
+2016-10-02 17:26:56,162 [      ChatWebSocket.java:Scheduler-1268650975:51] - Connection closed: 1001 - Idle Timeout
+
+2016-10-02 17:26:56,163 [      ChatWebSocket.java:Scheduler-1268650975:55] - Active sessions: 1 
+2016-10-02 17:26:56,169 [      ChatWebSocket.java:Scheduler-1268650975:51] - Connection closed: 1001 - Idle Timeout
+
+2016-10-02 17:26:56,170 [      ChatWebSocket.java:Scheduler-1268650975:55] - Active sessions: 0 
+2016-10-02 17:27:26,181 [          Encryptor.java:qtp1286783232-17:41] - Decrypting message with AES/CBC
+2016-10-02 17:27:26,182 [          Encryptor.java:qtp1286783232-18:41] - Decrypting message with AES/CBC
+2016-10-02 17:43:33,712 [      ChatWebSocket.java:qtp1286783232-21:63] - Got connect: guest75 
+
+2016-10-02 17:43:33,723 [      ChatWebSocket.java:qtp1286783232-21:67] - Active sessions: 1 
+2016-10-02 17:43:33,733 [          Encryptor.java:qtp1286783232-21:20] - Encrypting message with AES/CBC
+2016-10-02 17:43:34,082 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 17:43:34,083 [          Encryptor.java:qtp1286783232-19:41] - Decrypting message with AES/CBC
+2016-10-02 17:44:34,407 [  MessageController.java:qtp1286783232-17:21] - Creating message
+2016-10-02 17:44:46,026 [          Encryptor.java:qtp1286783232-17:20] - Encrypting message with AES/CBC
+2016-10-02 17:45:07,277 [          Encryptor.java:qtp1286783232-14:41] - Decrypting message with AES/CBC
+2016-10-02 17:47:05,632 [      ChatWebSocket.java:qtp1286783232-20:63] - Got connect: guest119 
+
+2016-10-02 17:47:05,636 [      ChatWebSocket.java:qtp1286783232-20:67] - Active sessions: 1 
+2016-10-02 17:47:05,638 [          Encryptor.java:qtp1286783232-20:20] - Encrypting message with AES/CBC
+2016-10-02 17:47:05,896 [  MessageController.java:qtp1286783232-12:33] - Handling message
+2016-10-02 17:47:05,897 [          Encryptor.java:qtp1286783232-12:41] - Decrypting message with AES/CBC
+2016-10-02 17:47:08,351 [  MessageController.java:qtp1286783232-19:21] - Creating message
+2016-10-02 17:47:08,352 [          Encryptor.java:qtp1286783232-19:20] - Encrypting message with AES/CBC
+2016-10-02 17:47:08,387 [          Encryptor.java:qtp1286783232-18:41] - Decrypting message with AES/CBC
+2016-10-02 17:47:08,396 [  MessageController.java:qtp1286783232-13:33] - Handling message
+2016-10-02 17:47:08,397 [          Encryptor.java:qtp1286783232-13:41] - Decrypting message with AES/CBC
+2016-10-02 17:47:09,476 [  MessageController.java:qtp1286783232-20:21] - Creating message
+2016-10-02 17:47:09,477 [          Encryptor.java:qtp1286783232-20:20] - Encrypting message with AES/CBC
+2016-10-02 17:47:09,494 [          Encryptor.java:qtp1286783232-13:41] - Decrypting message with AES/CBC
+2016-10-02 17:47:09,500 [  MessageController.java:qtp1286783232-18:33] - Handling message
+2016-10-02 17:47:09,501 [          Encryptor.java:qtp1286783232-18:41] - Decrypting message with AES/CBC
+2016-10-02 17:50:00,299 [      ChatWebSocket.java:qtp1286783232-12:63] - Got connect: guest17 
+
+2016-10-02 17:50:00,302 [      ChatWebSocket.java:qtp1286783232-12:67] - Active sessions: 1 
+2016-10-02 17:50:00,303 [          Encryptor.java:qtp1286783232-12:18] - Encrypting message guest17 has joined the chat with AES/ECB
+2016-10-02 17:50:00,554 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 17:50:00,554 [          Encryptor.java:qtp1286783232-19:40] - Decrypting message with AES/ECB/NOPADDING
+2016-10-02 17:50:01,856 [  MessageController.java:qtp1286783232-17:21] - Creating message
+2016-10-02 17:50:01,857 [          Encryptor.java:qtp1286783232-17:18] - Encrypting message guest17: wedwee with AES/ECB
+2016-10-02 17:50:01,885 [          Encryptor.java:qtp1286783232-12:40] - Decrypting message with AES/ECB/NOPADDING
+2016-10-02 17:50:01,919 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 17:50:01,919 [          Encryptor.java:qtp1286783232-19:40] - Decrypting message with AES/ECB/NOPADDING
+2016-10-02 17:50:03,205 [  MessageController.java:qtp1286783232-17:21] - Creating message
+2016-10-02 17:50:03,206 [          Encryptor.java:qtp1286783232-17:18] - Encrypting message guest17: ewwe with AES/ECB
+2016-10-02 17:50:03,215 [          Encryptor.java:qtp1286783232-18:40] - Decrypting message with AES/ECB/NOPADDING
+2016-10-02 17:50:03,218 [  MessageController.java:qtp1286783232-21:33] - Handling message
+2016-10-02 17:50:03,219 [          Encryptor.java:qtp1286783232-21:40] - Decrypting message with AES/ECB/NOPADDING
+2016-10-02 17:54:05,669 [      ChatWebSocket.java:qtp1286783232-19:63] - Got connect: guest75 
+
+2016-10-02 17:54:05,673 [      ChatWebSocket.java:qtp1286783232-19:67] - Active sessions: 1 
+2016-10-02 17:54:05,696 [  MessageController.java:qtp1286783232-15:33] - Handling message
+2016-10-02 17:54:07,527 [  MessageController.java:qtp1286783232-22:21] - Creating message
+2016-10-02 17:54:07,551 [  MessageController.java:qtp1286783232-17:33] - Handling message
+2016-10-02 17:54:08,857 [  MessageController.java:qtp1286783232-19:21] - Creating message
+2016-10-02 17:54:08,883 [  MessageController.java:qtp1286783232-18:33] - Handling message
+2016-10-02 17:59:08,884 [      ChatWebSocket.java:Scheduler-1268650975:51] - Connection closed: 1001 - Idle Timeout
+
+2016-10-02 17:59:08,885 [      ChatWebSocket.java:Scheduler-1268650975:55] - Active sessions: 0 
+2016-10-02 18:01:54,570 [      ChatWebSocket.java:qtp1286783232-21:63] - Got connect: guest4 
+
+2016-10-02 18:01:54,573 [      ChatWebSocket.java:qtp1286783232-21:67] - Active sessions: 1 
+2016-10-02 18:01:54,595 [  MessageController.java:qtp1286783232-15:33] - Handling message
+2016-10-02 18:01:56,014 [  MessageController.java:qtp1286783232-13:21] - Creating message
+2016-10-02 18:01:56,041 [  MessageController.java:qtp1286783232-15:33] - Handling message
+2016-10-02 18:02:25,395 [      ChatWebSocket.java:qtp1286783232-19:63] - Got connect: guest132 
+
+2016-10-02 18:02:25,398 [      ChatWebSocket.java:qtp1286783232-19:67] - Active sessions: 1 
+2016-10-02 18:02:25,424 [  MessageController.java:qtp1286783232-18:33] - Handling message
+2016-10-02 18:02:26,830 [  MessageController.java:qtp1286783232-20:21] - Creating message
+2016-10-02 18:02:26,848 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 18:02:28,450 [  MessageController.java:qtp1286783232-22:21] - Creating message
+2016-10-02 18:02:28,464 [  MessageController.java:qtp1286783232-18:33] - Handling message
+2016-10-02 18:02:36,126 [      ChatWebSocket.java:qtp1286783232-20:51] - Connection closed: 1001 - null
+
+2016-10-02 18:02:36,127 [      ChatWebSocket.java:qtp1286783232-20:55] - Active sessions: 0 
+2016-10-02 18:03:45,135 [      ChatWebSocket.java:qtp1286783232-19:63] - Got connect: guest24 
+
+2016-10-02 18:03:45,139 [      ChatWebSocket.java:qtp1286783232-19:67] - Active sessions: 1 
+2016-10-02 18:03:45,166 [  MessageController.java:qtp1286783232-16:33] - Handling message
+2016-10-02 18:03:54,126 [  MessageController.java:qtp1286783232-18:21] - Creating message
+2016-10-02 18:03:54,172 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 18:03:57,371 [  MessageController.java:qtp1286783232-21:21] - Creating message
+2016-10-02 18:03:57,407 [  MessageController.java:qtp1286783232-16:33] - Handling message
+2016-10-02 18:04:02,258 [  MessageController.java:qtp1286783232-17:21] - Creating message
+2016-10-02 18:04:02,320 [  MessageController.java:qtp1286783232-18:33] - Handling message
+2016-10-02 18:04:03,732 [  MessageController.java:qtp1286783232-19:21] - Creating message
+2016-10-02 18:04:03,782 [  MessageController.java:qtp1286783232-16:33] - Handling message
+2016-10-02 18:04:36,338 [      ChatWebSocket.java:qtp1286783232-19:63] - Got connect: guest26 
+
+2016-10-02 18:04:36,343 [      ChatWebSocket.java:qtp1286783232-19:67] - Active sessions: 1 
+2016-10-02 18:04:36,370 [  MessageController.java:qtp1286783232-18:33] - Handling message
+2016-10-02 18:04:38,270 [  MessageController.java:qtp1286783232-13:21] - Creating message
+2016-10-02 18:04:38,318 [  MessageController.java:qtp1286783232-12:33] - Handling message
+2016-10-02 18:05:46,976 [  MessageController.java:qtp1286783232-21:21] - Creating message
+2016-10-02 18:05:47,023 [  MessageController.java:qtp1286783232-12:33] - Handling message
+2016-10-02 18:06:10,928 [      ChatWebSocket.java:qtp1286783232-15:63] - Got connect: guest106 
+
+2016-10-02 18:06:10,933 [      ChatWebSocket.java:qtp1286783232-15:67] - Active sessions: 1 
+2016-10-02 18:06:10,965 [  MessageController.java:qtp1286783232-23:33] - Handling message
+2016-10-02 18:06:15,566 [  MessageController.java:qtp1286783232-15:21] - Creating message
+2016-10-02 18:06:15,652 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 18:11:15,610 [      ChatWebSocket.java:Scheduler-1268650975:51] - Connection closed: 1001 - Idle Timeout
+
+2016-10-02 18:11:15,611 [      ChatWebSocket.java:Scheduler-1268650975:55] - Active sessions: 0 
+2016-10-02 18:13:26,588 [      ChatWebSocket.java:qtp1286783232-18:63] - Got connect: guest41 
+
+2016-10-02 18:13:26,592 [      ChatWebSocket.java:qtp1286783232-18:67] - Active sessions: 1 
+2016-10-02 18:13:26,621 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 18:13:28,899 [  MessageController.java:qtp1286783232-23:21] - Creating message
+2016-10-02 18:13:28,938 [  MessageController.java:qtp1286783232-20:33] - Handling message
+2016-10-02 18:13:30,793 [  MessageController.java:qtp1286783232-18:21] - Creating message
+2016-10-02 18:13:30,824 [  MessageController.java:qtp1286783232-12:33] - Handling message
+2016-10-02 18:13:33,204 [  MessageController.java:qtp1286783232-23:21] - Creating message
+2016-10-02 18:13:33,249 [  MessageController.java:qtp1286783232-20:33] - Handling message
+2016-10-02 18:32:06,091 [      ChatWebSocket.java:qtp1286783232-19:63] - Got connect: guest50 
+
+2016-10-02 18:32:06,096 [      ChatWebSocket.java:qtp1286783232-19:67] - Active sessions: 1 
+2016-10-02 18:32:06,186 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 18:32:08,233 [  MessageController.java:qtp1286783232-13:21] - Creating message
+2016-10-02 18:32:08,275 [  MessageController.java:qtp1286783232-22:33] - Handling message
+2016-10-02 18:32:10,035 [  MessageController.java:qtp1286783232-18:21] - Creating message
+2016-10-02 18:32:10,092 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 18:32:11,421 [  MessageController.java:qtp1286783232-20:21] - Creating message
+2016-10-02 18:32:11,492 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 18:34:06,599 [      ChatWebSocket.java:qtp1286783232-14:63] - Got connect: guest155 
+
+2016-10-02 18:34:06,599 [      ChatWebSocket.java:qtp1286783232-14:67] - Active sessions: 2 
+2016-10-02 18:34:06,609 [  MessageController.java:qtp1286783232-22:33] - Handling message
+2016-10-02 18:34:06,619 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 18:34:08,878 [  MessageController.java:qtp1286783232-17:21] - Creating message
+2016-10-02 18:34:08,925 [  MessageController.java:qtp1286783232-13:33] - Handling message
+2016-10-02 18:34:08,935 [  MessageController.java:qtp1286783232-22:33] - Handling message
+2016-10-02 18:36:49,541 [      ChatWebSocket.java:qtp1286783232-19:63] - Got connect: guest56 
+
+2016-10-02 18:36:49,545 [      ChatWebSocket.java:qtp1286783232-19:67] - Active sessions: 1 
+2016-10-02 18:36:49,573 [  MessageController.java:qtp1286783232-17:33] - Handling message
+2016-10-02 18:36:51,545 [  MessageController.java:qtp1286783232-19:21] - Creating message
+2016-10-02 18:36:51,587 [  MessageController.java:qtp1286783232-20:33] - Handling message
+2016-10-02 18:36:52,906 [  MessageController.java:qtp1286783232-14:21] - Creating message
+2016-10-02 18:36:52,939 [  MessageController.java:qtp1286783232-12:33] - Handling message
+2016-10-02 18:36:53,784 [  MessageController.java:qtp1286783232-17:21] - Creating message
+2016-10-02 18:36:53,817 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 18:36:56,967 [      ChatWebSocket.java:qtp1286783232-14:63] - Got connect: guest62 
+
+2016-10-02 18:36:56,967 [      ChatWebSocket.java:qtp1286783232-14:67] - Active sessions: 2 
+2016-10-02 18:36:57,001 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 18:36:57,022 [  MessageController.java:qtp1286783232-13:33] - Handling message
+2016-10-02 18:36:58,803 [  MessageController.java:qtp1286783232-14:21] - Creating message
+2016-10-02 18:36:58,831 [  MessageController.java:qtp1286783232-17:33] - Handling message
+2016-10-02 18:36:58,839 [  MessageController.java:qtp1286783232-12:33] - Handling message
+2016-10-02 18:37:02,755 [  MessageController.java:qtp1286783232-13:21] - Creating message
+2016-10-02 18:37:02,796 [  MessageController.java:qtp1286783232-12:33] - Handling message
+2016-10-02 18:37:02,799 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 18:37:07,095 [  MessageController.java:qtp1286783232-17:21] - Creating message
+2016-10-02 18:37:07,125 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 18:37:07,131 [  MessageController.java:qtp1286783232-22:33] - Handling message
+2016-10-02 18:38:01,520 [      ChatWebSocket.java:qtp1286783232-19:63] - Got connect: guest181 
+
+2016-10-02 18:38:01,525 [      ChatWebSocket.java:qtp1286783232-19:67] - Active sessions: 1 
+2016-10-02 18:38:01,558 [  MessageController.java:qtp1286783232-22:33] - Handling message
+2016-10-02 18:38:03,594 [  MessageController.java:qtp1286783232-21:21] - Creating message
+2016-10-02 18:38:03,677 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 18:38:05,120 [  MessageController.java:qtp1286783232-19:21] - Creating message
+2016-10-02 18:38:05,160 [  MessageController.java:qtp1286783232-17:33] - Handling message
+2016-10-02 18:40:19,103 [      ChatWebSocket.java:qtp1286783232-22:63] - Got connect: guest200 
+
+2016-10-02 18:40:19,107 [      ChatWebSocket.java:qtp1286783232-22:67] - Active sessions: 1 
+2016-10-02 18:40:19,109 [          Encryptor.java:qtp1286783232-22:20] - Encrypting message with AES/CBC
+2016-10-02 18:40:19,363 [  MessageController.java:qtp1286783232-12:33] - Handling message
+2016-10-02 18:40:19,364 [          Encryptor.java:qtp1286783232-12:41] - Decrypting message with AES/CBC
+2016-10-02 18:40:21,307 [  MessageController.java:qtp1286783232-19:21] - Creating message
+2016-10-02 18:40:21,309 [          Encryptor.java:qtp1286783232-19:20] - Encrypting message with AES/CBC
+2016-10-02 18:40:21,340 [  MessageController.java:qtp1286783232-21:33] - Handling message
+2016-10-02 18:40:21,341 [          Encryptor.java:qtp1286783232-21:41] - Decrypting message with AES/CBC
+2016-10-02 18:40:23,245 [  MessageController.java:qtp1286783232-22:21] - Creating message
+2016-10-02 18:40:23,246 [          Encryptor.java:qtp1286783232-22:20] - Encrypting message with AES/CBC
+2016-10-02 18:40:23,278 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 18:40:23,278 [          Encryptor.java:qtp1286783232-14:41] - Decrypting message with AES/CBC
+2016-10-02 18:42:32,708 [      ChatWebSocket.java:qtp1286783232-17:63] - Got connect: guest196 
+
+2016-10-02 18:42:32,711 [      ChatWebSocket.java:qtp1286783232-17:67] - Active sessions: 1 
+2016-10-02 18:42:32,712 [          Encryptor.java:qtp1286783232-17:20] - Encrypting message with AES/CBC
+2016-10-02 18:42:32,961 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 18:42:32,961 [          Encryptor.java:qtp1286783232-19:41] - Decrypting message with AES/CBC
+2016-10-02 18:42:34,746 [  MessageController.java:qtp1286783232-20:21] - Creating message
+2016-10-02 18:42:34,747 [          Encryptor.java:qtp1286783232-20:20] - Encrypting message with AES/CBC
+2016-10-02 18:42:34,773 [          Encryptor.java:qtp1286783232-13:41] - Decrypting message with AES/CBC
+2016-10-02 18:42:34,783 [  MessageController.java:qtp1286783232-24:33] - Handling message
+2016-10-02 18:42:34,784 [          Encryptor.java:qtp1286783232-24:41] - Decrypting message with AES/CBC
+2016-10-02 18:42:36,092 [  MessageController.java:qtp1286783232-24:21] - Creating message
+2016-10-02 18:42:36,093 [          Encryptor.java:qtp1286783232-24:20] - Encrypting message with AES/CBC
+2016-10-02 18:42:36,117 [          Encryptor.java:qtp1286783232-18:41] - Decrypting message with AES/CBC
+2016-10-02 18:42:36,123 [  MessageController.java:qtp1286783232-17:33] - Handling message
+2016-10-02 18:42:36,123 [          Encryptor.java:qtp1286783232-17:41] - Decrypting message with AES/CBC
+2016-10-02 18:42:42,146 [      ChatWebSocket.java:qtp1286783232-17:63] - Got connect: guest145 
+
+2016-10-02 18:42:42,149 [      ChatWebSocket.java:qtp1286783232-17:67] - Active sessions: 2 
+2016-10-02 18:42:42,149 [          Encryptor.java:qtp1286783232-17:20] - Encrypting message with AES/CBC
+2016-10-02 18:42:42,239 [  MessageController.java:qtp1286783232-24:33] - Handling message
+2016-10-02 18:42:42,240 [          Encryptor.java:qtp1286783232-24:41] - Decrypting message with AES/CBC
+2016-10-02 18:42:42,259 [  MessageController.java:qtp1286783232-18:33] - Handling message
+2016-10-02 18:42:42,260 [          Encryptor.java:qtp1286783232-18:41] - Decrypting message with AES/CBC
+2016-10-02 18:42:43,941 [  MessageController.java:qtp1286783232-12:21] - Creating message
+2016-10-02 18:42:43,941 [          Encryptor.java:qtp1286783232-12:20] - Encrypting message with AES/CBC
+2016-10-02 18:42:43,964 [          Encryptor.java:qtp1286783232-17:41] - Decrypting message with AES/CBC
+2016-10-02 18:42:43,979 [  MessageController.java:qtp1286783232-21:33] - Handling message
+2016-10-02 18:42:43,980 [          Encryptor.java:qtp1286783232-21:41] - Decrypting message with AES/CBC
+2016-10-02 18:42:43,981 [  MessageController.java:qtp1286783232-20:33] - Handling message
+2016-10-02 18:42:43,981 [          Encryptor.java:qtp1286783232-20:41] - Decrypting message with AES/CBC
+2016-10-02 18:43:24,287 [      ChatWebSocket.java:qtp1286783232-23:63] - Got connect: guest159 
+
+2016-10-02 18:43:24,291 [      ChatWebSocket.java:qtp1286783232-23:67] - Active sessions: 1 
+2016-10-02 18:43:24,330 [  MessageController.java:qtp1286783232-12:33] - Handling message
+2016-10-02 18:43:26,156 [  MessageController.java:qtp1286783232-19:21] - Creating message
+2016-10-02 18:43:26,199 [  MessageController.java:qtp1286783232-20:33] - Handling message
+2016-10-02 18:43:27,432 [  MessageController.java:qtp1286783232-20:21] - Creating message
+2016-10-02 18:43:27,482 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 18:44:12,794 [      ChatWebSocket.java:qtp1286783232-13:63] - Got connect: guest93 
+
+2016-10-02 18:44:12,798 [      ChatWebSocket.java:qtp1286783232-13:67] - Active sessions: 1 
+2016-10-02 18:44:12,800 [          Encryptor.java:qtp1286783232-13:20] - Encrypting message with AES/CBC
+2016-10-02 18:44:13,065 [  MessageController.java:qtp1286783232-17:33] - Handling message
+2016-10-02 18:44:13,066 [          Encryptor.java:qtp1286783232-17:41] - Decrypting message with AES/CBC
+2016-10-02 18:44:14,514 [  MessageController.java:qtp1286783232-18:21] - Creating message
+2016-10-02 18:44:14,515 [          Encryptor.java:qtp1286783232-18:20] - Encrypting message with AES/CBC
+2016-10-02 18:44:14,562 [  MessageController.java:qtp1286783232-13:33] - Handling message
+2016-10-02 18:44:14,562 [          Encryptor.java:qtp1286783232-13:41] - Decrypting message with AES/CBC
+2016-10-02 18:44:15,583 [  MessageController.java:qtp1286783232-22:21] - Creating message
+2016-10-02 18:44:15,584 [          Encryptor.java:qtp1286783232-22:20] - Encrypting message with AES/CBC
+2016-10-02 18:44:15,626 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 18:44:15,626 [          Encryptor.java:qtp1286783232-14:41] - Decrypting message with AES/CBC
+2016-10-02 18:55:01,685 [      ChatWebSocket.java:qtp1286783232-13:63] - Got connect: guest12 
+
+2016-10-02 18:55:01,689 [      ChatWebSocket.java:qtp1286783232-13:67] - Active sessions: 1 
+2016-10-02 18:55:01,741 [  MessageController.java:qtp1286783232-22:33] - Handling message
+2016-10-02 18:55:01,741 [          Encryptor.java:qtp1286783232-22:41] - Decrypting message with AES/CBC
+2016-10-02 18:55:03,226 [  MessageController.java:qtp1286783232-19:21] - Creating message
+2016-10-02 18:55:03,287 [  MessageController.java:qtp1286783232-22:33] - Handling message
+2016-10-02 18:55:03,287 [          Encryptor.java:qtp1286783232-22:41] - Decrypting message with AES/CBC
+2016-10-02 18:55:04,973 [  MessageController.java:qtp1286783232-19:21] - Creating message
+2016-10-02 18:55:05,010 [  MessageController.java:qtp1286783232-18:33] - Handling message
+2016-10-02 18:55:05,010 [          Encryptor.java:qtp1286783232-18:41] - Decrypting message with AES/CBC
+2016-10-02 18:55:06,122 [  MessageController.java:qtp1286783232-22:21] - Creating message
+2016-10-02 18:55:06,167 [  MessageController.java:qtp1286783232-18:33] - Handling message
+2016-10-02 18:55:06,168 [          Encryptor.java:qtp1286783232-18:41] - Decrypting message with AES/CBC
+2016-10-02 18:56:15,578 [      ChatWebSocket.java:qtp1286783232-18:63] - Got connect: guest5 
+
+2016-10-02 18:56:15,582 [      ChatWebSocket.java:qtp1286783232-18:67] - Active sessions: 1 
+2016-10-02 18:56:15,615 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 18:56:15,615 [          Encryptor.java:qtp1286783232-14:41] - Decrypting message with AES/CBC
+2016-10-02 18:56:16,843 [  MessageController.java:qtp1286783232-19:21] - Creating message
+2016-10-02 18:56:16,880 [  MessageController.java:qtp1286783232-16:33] - Handling message
+2016-10-02 18:56:16,881 [          Encryptor.java:qtp1286783232-16:41] - Decrypting message with AES/CBC
+2016-10-02 18:56:49,470 [      ChatWebSocket.java:qtp1286783232-12:63] - Got connect: guest119 
+
+2016-10-02 18:56:49,473 [      ChatWebSocket.java:qtp1286783232-12:67] - Active sessions: 1 
+2016-10-02 18:56:49,501 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 18:56:51,022 [  MessageController.java:qtp1286783232-18:21] - Creating message
+2016-10-02 18:56:51,067 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 18:56:52,332 [  MessageController.java:qtp1286783232-18:21] - Creating message
+2016-10-02 18:56:52,368 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 18:56:56,033 [  MessageController.java:qtp1286783232-14:21] - Creating message
+2016-10-02 18:56:56,066 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 18:57:29,877 [      ChatWebSocket.java:qtp1286783232-21:63] - Got connect: guest37 
+
+2016-10-02 18:57:29,880 [      ChatWebSocket.java:qtp1286783232-21:67] - Active sessions: 1 
+2016-10-02 18:57:29,881 [          Encryptor.java:qtp1286783232-21:20] - Encrypting message with AES/CBC
+2016-10-02 18:57:30,139 [  MessageController.java:qtp1286783232-12:33] - Handling message
+2016-10-02 18:57:30,139 [          Encryptor.java:qtp1286783232-12:41] - Decrypting message with AES/CBC
+2016-10-02 18:57:31,677 [  MessageController.java:qtp1286783232-17:21] - Creating message
+2016-10-02 18:57:31,677 [          Encryptor.java:qtp1286783232-17:20] - Encrypting message with AES/CBC
+2016-10-02 18:57:31,720 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 18:57:31,720 [          Encryptor.java:qtp1286783232-19:41] - Decrypting message with AES/CBC
+2016-10-02 18:57:33,144 [  MessageController.java:qtp1286783232-12:21] - Creating message
+2016-10-02 18:57:33,145 [          Encryptor.java:qtp1286783232-12:20] - Encrypting message with AES/CBC
+2016-10-02 18:57:33,215 [  MessageController.java:qtp1286783232-17:33] - Handling message
+2016-10-02 18:57:33,215 [          Encryptor.java:qtp1286783232-17:41] - Decrypting message with AES/CBC
+2016-10-02 18:57:51,916 [      ChatWebSocket.java:qtp1286783232-18:63] - Got connect: guest83 
+
+2016-10-02 18:57:51,920 [      ChatWebSocket.java:qtp1286783232-18:67] - Active sessions: 1 
+2016-10-02 18:57:51,979 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 18:57:51,979 [          Encryptor.java:qtp1286783232-14:41] - Decrypting message with AES/CBC
+2016-10-02 18:57:53,066 [  MessageController.java:qtp1286783232-13:21] - Creating message
+2016-10-02 18:57:53,104 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 18:57:53,105 [          Encryptor.java:qtp1286783232-19:41] - Decrypting message with AES/CBC
+2016-10-02 18:58:00,993 [  MessageController.java:qtp1286783232-13:21] - Creating message
+2016-10-02 18:58:57,182 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 18:58:57,183 [          Encryptor.java:qtp1286783232-19:41] - Decrypting message with AES/CBC
+2016-10-02 19:03:57,162 [      ChatWebSocket.java:Scheduler-1268650975:51] - Connection closed: 1001 - Idle Timeout
+
+2016-10-02 19:03:57,165 [      ChatWebSocket.java:Scheduler-1268650975:55] - Active sessions: 0 
+2016-10-02 19:22:57,989 [      ChatWebSocket.java:qtp1286783232-18:63] - Got connect: guest63 
+
+2016-10-02 19:22:57,994 [      ChatWebSocket.java:qtp1286783232-18:67] - Active sessions: 1 
+2016-10-02 19:22:57,996 [          Encryptor.java:qtp1286783232-18:20] - Encrypting message with AES/CBC
+2016-10-02 19:22:58,292 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 19:22:58,293 [          Encryptor.java:qtp1286783232-14:41] - Decrypting message with AES/CBC
+2016-10-02 19:22:59,476 [  MessageController.java:qtp1286783232-18:21] - Creating message
+2016-10-02 19:22:59,476 [          Encryptor.java:qtp1286783232-18:20] - Encrypting message with AES/CBC
+2016-10-02 19:22:59,503 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 19:22:59,504 [          Encryptor.java:qtp1286783232-19:41] - Decrypting message with AES/CBC
+2016-10-02 19:23:00,586 [  MessageController.java:qtp1286783232-14:21] - Creating message
+2016-10-02 19:23:00,587 [          Encryptor.java:qtp1286783232-14:20] - Encrypting message with AES/CBC
+2016-10-02 19:23:00,614 [  MessageController.java:qtp1286783232-12:33] - Handling message
+2016-10-02 19:23:00,614 [          Encryptor.java:qtp1286783232-12:41] - Decrypting message with AES/CBC
+2016-10-02 19:23:02,491 [  MessageController.java:qtp1286783232-23:21] - Creating message
+2016-10-02 19:23:02,492 [          Encryptor.java:qtp1286783232-23:20] - Encrypting message with AES/CBC
+2016-10-02 19:23:02,516 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 19:23:02,518 [          Encryptor.java:qtp1286783232-19:41] - Decrypting message with AES/CBC
+2016-10-02 19:23:10,385 [  MessageController.java:qtp1286783232-16:21] - Creating message
+2016-10-02 19:23:10,386 [          Encryptor.java:qtp1286783232-16:20] - Encrypting message with AES/CBC
+2016-10-02 19:23:10,416 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 19:23:10,417 [          Encryptor.java:qtp1286783232-14:41] - Decrypting message with AES/CBC
+2016-10-02 19:23:16,912 [  MessageController.java:qtp1286783232-12:21] - Creating message
+2016-10-02 19:23:16,913 [          Encryptor.java:qtp1286783232-12:20] - Encrypting message with AES/CBC
+2016-10-02 19:23:16,940 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 19:23:16,941 [          Encryptor.java:qtp1286783232-19:41] - Decrypting message with AES/CBC
+2016-10-02 19:24:13,396 [      ChatWebSocket.java:qtp1286783232-12:63] - Got connect: guest85 
+
+2016-10-02 19:24:13,400 [      ChatWebSocket.java:qtp1286783232-12:67] - Active sessions: 1 
+2016-10-02 19:24:13,401 [          Encryptor.java:qtp1286783232-12:20] - Encrypting message with AES/CBC
+2016-10-02 19:24:13,662 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 19:24:13,662 [          Encryptor.java:qtp1286783232-14:41] - Decrypting message with AES/CBC
+2016-10-02 19:24:15,013 [  MessageController.java:qtp1286783232-21:21] - Creating message
+2016-10-02 19:24:15,014 [          Encryptor.java:qtp1286783232-21:20] - Encrypting message with AES/CBC
+2016-10-02 19:24:15,046 [  MessageController.java:qtp1286783232-17:33] - Handling message
+2016-10-02 19:24:15,046 [          Encryptor.java:qtp1286783232-17:41] - Decrypting message with AES/CBC
+2016-10-02 19:24:17,623 [  MessageController.java:qtp1286783232-12:21] - Creating message
+2016-10-02 19:24:17,623 [          Encryptor.java:qtp1286783232-12:20] - Encrypting message with AES/CBC
+2016-10-02 19:24:17,649 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 19:24:17,650 [          Encryptor.java:qtp1286783232-19:41] - Decrypting message with AES/CBC
+2016-10-02 19:24:19,917 [  MessageController.java:qtp1286783232-14:21] - Creating message
+2016-10-02 19:24:19,918 [          Encryptor.java:qtp1286783232-14:20] - Encrypting message with AES/CBC
+2016-10-02 19:24:19,941 [  MessageController.java:qtp1286783232-21:33] - Handling message
+2016-10-02 19:24:19,943 [          Encryptor.java:qtp1286783232-21:41] - Decrypting message with AES/CBC
+2016-10-02 19:25:52,509 [      ChatWebSocket.java:qtp1286783232-12:63] - Got connect: guest19 
+
+2016-10-02 19:25:52,513 [      ChatWebSocket.java:qtp1286783232-12:67] - Active sessions: 1 
+2016-10-02 19:25:52,514 [          Encryptor.java:qtp1286783232-12:20] - Encrypting message with AES/CBC
+2016-10-02 19:25:52,775 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 19:25:52,775 [          Encryptor.java:qtp1286783232-14:41] - Decrypting message with AES/CBC
+2016-10-02 19:25:54,465 [  MessageController.java:qtp1286783232-17:21] - Creating message
+2016-10-02 19:25:54,465 [          Encryptor.java:qtp1286783232-17:20] - Encrypting message with AES/CBC
+2016-10-02 19:25:54,496 [          Encryptor.java:qtp1286783232-12:41] - Decrypting message with AES/CBC
+2016-10-02 19:25:54,503 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-02 19:25:54,503 [          Encryptor.java:qtp1286783232-14:41] - Decrypting message with AES/CBC
+2016-10-02 19:25:55,503 [  MessageController.java:qtp1286783232-17:21] - Creating message
+2016-10-02 19:25:55,504 [          Encryptor.java:qtp1286783232-17:20] - Encrypting message with AES/CBC
+2016-10-02 19:25:55,532 [          Encryptor.java:qtp1286783232-18:41] - Decrypting message with AES/CBC
+2016-10-02 19:25:55,536 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 19:25:55,537 [          Encryptor.java:qtp1286783232-19:41] - Decrypting message with AES/CBC
+2016-10-02 19:26:07,892 [  MessageController.java:qtp1286783232-14:21] - Creating message
+2016-10-02 19:26:07,895 [          Encryptor.java:qtp1286783232-14:20] - Encrypting message with AES/CBC
+2016-10-02 19:26:07,925 [          Encryptor.java:qtp1286783232-18:41] - Decrypting message with AES/CBC
+2016-10-02 19:26:07,931 [  MessageController.java:qtp1286783232-19:33] - Handling message
+2016-10-02 19:26:07,932 [          Encryptor.java:qtp1286783232-19:41] - Decrypting message with AES/CBC
+2016-10-02 19:31:07,934 [      ChatWebSocket.java:Scheduler-1268650975:51] - Connection closed: 1001 - Idle Timeout
+
+2016-10-02 19:31:07,935 [      ChatWebSocket.java:Scheduler-1268650975:55] - Active sessions: 0 
+2016-10-02 22:46:32,571 [      ChatWebSocket.java:qtp835648992-19:63] - Got connect: guest163 
+
+2016-10-02 22:46:32,574 [      ChatWebSocket.java:qtp835648992-19:67] - Active sessions: 1 
+2016-10-02 22:46:32,576 [          Encryptor.java:qtp835648992-19:20] - Encrypting message with AES/CBC
+2016-10-02 22:46:32,850 [  MessageController.java:qtp835648992-11:33] - Handling message
+2016-10-02 22:46:32,850 [          Encryptor.java:qtp835648992-11:41] - Decrypting message with AES/CBC
+2016-10-02 22:46:34,817 [  MessageController.java:qtp835648992-9:21] - Creating message
+2016-10-02 22:46:34,818 [          Encryptor.java:qtp835648992-9:20] - Encrypting message with AES/CBC
+2016-10-02 22:46:34,843 [          Encryptor.java:qtp835648992-15:41] - Decrypting message with AES/CBC
+2016-10-02 22:46:34,864 [  MessageController.java:qtp835648992-11:33] - Handling message
+2016-10-02 22:46:34,864 [          Encryptor.java:qtp835648992-11:41] - Decrypting message with AES/CBC
+2016-10-02 22:46:36,079 [  MessageController.java:qtp835648992-16:21] - Creating message
+2016-10-02 22:46:36,079 [          Encryptor.java:qtp835648992-16:20] - Encrypting message with AES/CBC
+2016-10-02 22:46:36,097 [          Encryptor.java:qtp835648992-14:41] - Decrypting message with AES/CBC
+2016-10-02 22:46:36,100 [  MessageController.java:qtp835648992-20:33] - Handling message
+2016-10-02 22:46:36,100 [          Encryptor.java:qtp835648992-20:41] - Decrypting message with AES/CBC
+2016-10-02 22:46:37,554 [  MessageController.java:qtp835648992-15:21] - Creating message
+2016-10-02 22:46:37,559 [          Encryptor.java:qtp835648992-15:20] - Encrypting message with AES/CBC
+2016-10-02 22:46:37,590 [          Encryptor.java:qtp835648992-16:41] - Decrypting message with AES/CBC
+2016-10-02 22:46:37,595 [  MessageController.java:qtp835648992-14:33] - Handling message
+2016-10-02 22:46:37,595 [          Encryptor.java:qtp835648992-14:41] - Decrypting message with AES/CBC
+2016-10-03 07:39:22,265 [      ChatWebSocket.java:Scheduler-485815673:51] - Connection closed: 1001 - Idle Timeout
+
+2016-10-03 07:39:22,265 [      ChatWebSocket.java:Scheduler-485815673:55] - Active sessions: 0 
+2016-10-03 07:41:45,462 [      ChatWebSocket.java:qtp835648992-16:63] - Got connect: guest79 
+
+2016-10-03 07:41:45,465 [      ChatWebSocket.java:qtp835648992-16:67] - Active sessions: 1 
+2016-10-03 07:41:45,466 [          Encryptor.java:qtp835648992-16:20] - Encrypting message with AES/CBC
+2016-10-03 07:41:45,689 [  MessageController.java:qtp835648992-12:33] - Handling message
+2016-10-03 07:41:45,690 [          Encryptor.java:qtp835648992-12:41] - Decrypting message with AES/CBC
+2016-10-03 07:41:47,763 [  MessageController.java:qtp835648992-14:21] - Creating message
+2016-10-03 07:41:47,764 [          Encryptor.java:qtp835648992-14:20] - Encrypting message with AES/CBC
+2016-10-03 07:41:47,786 [          Encryptor.java:qtp835648992-15:41] - Decrypting message with AES/CBC
+2016-10-03 07:41:47,789 [  MessageController.java:qtp835648992-16:33] - Handling message
+2016-10-03 07:41:47,790 [          Encryptor.java:qtp835648992-16:41] - Decrypting message with AES/CBC
+2016-10-03 07:43:12,280 [      ChatWebSocket.java:qtp1286783232-14:63] - Got connect: guest38 
+
+2016-10-03 07:43:12,284 [      ChatWebSocket.java:qtp1286783232-14:67] - Active sessions: 1 
+2016-10-03 07:43:12,286 [          Encryptor.java:qtp1286783232-14:20] - Encrypting message with AES/CBC
+2016-10-03 07:43:12,539 [  MessageController.java:qtp1286783232-23:33] - Handling message
+2016-10-03 07:43:12,540 [          Encryptor.java:qtp1286783232-23:41] - Decrypting message with AES/CBC
+2016-10-03 07:43:14,271 [  MessageController.java:qtp1286783232-20:21] - Creating message
+2016-10-03 07:43:14,272 [          Encryptor.java:qtp1286783232-20:20] - Encrypting message with AES/CBC
+2016-10-03 07:43:14,292 [          Encryptor.java:qtp1286783232-18:41] - Decrypting message with AES/CBC
+2016-10-03 07:43:14,301 [  MessageController.java:qtp1286783232-17:33] - Handling message
+2016-10-03 07:43:14,301 [          Encryptor.java:qtp1286783232-17:41] - Decrypting message with AES/CBC
+2016-10-03 07:43:21,160 [  MessageController.java:qtp1286783232-14:21] - Creating message
+2016-10-03 07:43:21,160 [          Encryptor.java:qtp1286783232-14:20] - Encrypting message with AES/CBC
+2016-10-03 07:43:21,178 [          Encryptor.java:qtp1286783232-17:41] - Decrypting message with AES/CBC
+2016-10-03 07:43:21,206 [  MessageController.java:qtp1286783232-18:33] - Handling message
+2016-10-03 07:43:21,206 [          Encryptor.java:qtp1286783232-18:41] - Decrypting message with AES/CBC
+2016-10-03 07:44:03,550 [      ChatWebSocket.java:qtp835648992-16:63] - Got connect: guest59 
+
+2016-10-03 07:44:03,554 [      ChatWebSocket.java:qtp835648992-16:67] - Active sessions: 1 
+2016-10-03 07:44:03,555 [          Encryptor.java:qtp835648992-16:20] - Encrypting message with AES/CBC
+2016-10-03 07:44:03,787 [  MessageController.java:qtp835648992-15:33] - Handling message
+2016-10-03 07:44:03,788 [          Encryptor.java:qtp835648992-15:41] - Decrypting message with AES/CBC
+2016-10-03 07:44:05,474 [  MessageController.java:qtp835648992-20:21] - Creating message
+2016-10-03 07:44:05,474 [          Encryptor.java:qtp835648992-20:20] - Encrypting message with AES/CBC
+2016-10-03 07:44:05,494 [          Encryptor.java:qtp835648992-15:41] - Decrypting message with AES/CBC
+2016-10-03 07:44:05,502 [  MessageController.java:qtp835648992-16:33] - Handling message
+2016-10-03 07:44:05,503 [          Encryptor.java:qtp835648992-16:41] - Decrypting message with AES/CBC
+2016-10-03 07:48:58,670 [      ChatWebSocket.java:qtp1286783232-12:63] - Got connect: guest61 
+
+2016-10-03 07:48:58,673 [      ChatWebSocket.java:qtp1286783232-12:67] - Active sessions: 1 
+2016-10-03 07:48:58,675 [          Encryptor.java:qtp1286783232-12:20] - Encrypting message with AES/CBC
+2016-10-03 07:48:58,919 [  MessageController.java:qtp1286783232-14:33] - Handling message
+2016-10-03 07:48:58,920 [          Encryptor.java:qtp1286783232-14:41] - Decrypting message with AES/CBC
+2016-10-03 07:49:00,771 [  MessageController.java:qtp1286783232-17:21] - Creating message
+2016-10-03 07:49:00,771 [          Encryptor.java:qtp1286783232-17:20] - Encrypting message with AES/CBC
+2016-10-03 07:49:00,793 [          Encryptor.java:qtp1286783232-20:41] - Decrypting message with AES/CBC
+2016-10-03 07:49:00,805 [  MessageController.java:qtp1286783232-12:33] - Handling message
+2016-10-03 07:49:00,805 [          Encryptor.java:qtp1286783232-12:41] - Decrypting message with AES/CBC
+2016-10-03 07:54:00,800 [      ChatWebSocket.java:Scheduler-1268650975:51] - Connection closed: 1001 - Idle Timeout
+
+2016-10-03 07:54:00,800 [      ChatWebSocket.java:Scheduler-1268650975:55] - Active sessions: 0 
+2016-10-03 08:00:11,059 [      ChatWebSocket.java:qtp1632392469-19:63] - Got connect: guest149 
+
+2016-10-03 08:00:11,064 [      ChatWebSocket.java:qtp1632392469-19:67] - Active sessions: 1 
+2016-10-03 08:00:11,093 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-03 08:00:12,934 [  MessageController.java:qtp1632392469-15:21] - Creating message
+2016-10-03 08:00:12,949 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-03 08:00:14,055 [  MessageController.java:qtp1632392469-15:21] - Creating message
+2016-10-03 08:00:14,069 [  MessageController.java:qtp1632392469-21:33] - Handling message
+2016-10-03 08:00:16,187 [  MessageController.java:qtp1632392469-12:21] - Creating message
+2016-10-03 08:00:16,205 [  MessageController.java:qtp1632392469-21:33] - Handling message
+2016-10-03 08:11:18,725 [      ChatWebSocket.java:qtp1632392469-17:63] - Got connect: guest153 
+
+2016-10-03 08:11:18,728 [      ChatWebSocket.java:qtp1632392469-17:67] - Active sessions: 1 
+2016-10-03 08:11:18,846 [  MessageController.java:qtp1632392469-18:33] - Handling message
+2016-10-03 08:11:20,000 [  MessageController.java:qtp1632392469-17:21] - Creating message
+2016-10-03 08:11:20,028 [  MessageController.java:qtp1632392469-18:33] - Handling message
+2016-10-03 08:12:48,001 [      ChatWebSocket.java:qtp1632392469-17:51] - Connection closed: 1001 - null
+
+2016-10-03 08:12:48,009 [      ChatWebSocket.java:qtp1632392469-17:55] - Active sessions: 0 
+2016-10-03 08:12:49,298 [      ChatWebSocket.java:qtp1632392469-15:63] - Got connect: guest105 
+
+2016-10-03 08:12:49,298 [      ChatWebSocket.java:qtp1632392469-15:67] - Active sessions: 1 
+2016-10-03 08:12:49,326 [  MessageController.java:qtp1632392469-20:33] - Handling message
+2016-10-03 08:12:50,756 [  MessageController.java:qtp1632392469-19:21] - Creating message
+2016-10-03 08:12:50,778 [  MessageController.java:qtp1632392469-20:33] - Handling message
+2016-10-03 08:13:29,848 [      ChatWebSocket.java:qtp1632392469-20:63] - Got connect: guest17 
+
+2016-10-03 08:13:29,852 [      ChatWebSocket.java:qtp1632392469-20:67] - Active sessions: 1 
+2016-10-03 08:13:29,968 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-03 08:13:31,173 [  MessageController.java:qtp1632392469-12:21] - Creating message
+2016-10-03 08:13:31,201 [  MessageController.java:qtp1632392469-19:33] - Handling message
+2016-10-03 08:18:31,202 [      ChatWebSocket.java:Scheduler-1196765369:51] - Connection closed: 1001 - Idle Timeout
+
+2016-10-03 08:18:31,203 [      ChatWebSocket.java:Scheduler-1196765369:55] - Active sessions: 0 
+2016-10-03 08:18:58,280 [      ChatWebSocket.java:qtp1632392469-14:63] - Got connect: guest97 
+
+2016-10-03 08:18:58,283 [      ChatWebSocket.java:qtp1632392469-14:67] - Active sessions: 1 
+2016-10-03 08:18:58,389 [  MessageController.java:qtp1632392469-18:33] - Handling message
+2016-10-03 08:18:59,661 [  MessageController.java:qtp1632392469-22:21] - Creating message
+2016-10-03 08:18:59,685 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-03 08:23:59,688 [      ChatWebSocket.java:Scheduler-1196765369:51] - Connection closed: 1001 - Idle Timeout
+
+2016-10-03 08:23:59,689 [      ChatWebSocket.java:Scheduler-1196765369:55] - Active sessions: 0 
+2016-10-03 08:29:26,158 [      ChatWebSocket.java:qtp1632392469-14:63] - Got connect: guest47 
+
+2016-10-03 08:29:26,163 [      ChatWebSocket.java:qtp1632392469-14:67] - Active sessions: 1 
+2016-10-03 08:29:26,268 [  MessageController.java:qtp1632392469-17:33] - Handling message
+2016-10-03 08:29:28,041 [  MessageController.java:qtp1632392469-19:21] - Creating message
+2016-10-03 08:29:28,067 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-03 08:30:24,946 [      ChatWebSocket.java:qtp1632392469-12:63] - Got connect: guest29 
+
+2016-10-03 08:30:24,951 [      ChatWebSocket.java:qtp1632392469-12:67] - Active sessions: 1 
+2016-10-03 08:30:25,052 [  MessageController.java:qtp1632392469-20:33] - Handling message
+2016-10-03 08:30:26,230 [  MessageController.java:qtp1632392469-18:21] - Creating message
+2016-10-03 08:30:26,323 [  MessageController.java:qtp1632392469-22:33] - Handling message
+2016-10-03 08:31:37,313 [      ChatWebSocket.java:qtp1632392469-23:63] - Got connect: guest174 
+
+2016-10-03 08:31:37,316 [      ChatWebSocket.java:qtp1632392469-23:67] - Active sessions: 1 
+2016-10-03 08:31:37,341 [  MessageController.java:qtp1632392469-21:33] - Handling message
+2016-10-03 08:32:06,048 [      ChatWebSocket.java:qtp1632392469-20:63] - Got connect: guest15 
+
+2016-10-03 08:32:06,053 [      ChatWebSocket.java:qtp1632392469-20:67] - Active sessions: 1 
+2016-10-03 08:32:06,160 [  MessageController.java:qtp1632392469-17:33] - Handling message
+2016-10-03 08:32:07,373 [  MessageController.java:qtp1632392469-12:21] - Creating message
+2016-10-03 08:32:07,420 [  MessageController.java:qtp1632392469-19:33] - Handling message
+2016-10-03 08:32:08,805 [  MessageController.java:qtp1632392469-20:21] - Creating message
+2016-10-03 08:32:08,826 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-03 08:32:09,895 [      ChatWebSocket.java:qtp1632392469-18:51] - Connection closed: 1005 - null
+
+2016-10-03 08:32:09,896 [      ChatWebSocket.java:qtp1632392469-18:55] - Active sessions: 0 
+2016-10-03 08:45:01,138 [      ChatWebSocket.java:qtp1632392469-18:63] - Got connect: guest70 
+
+2016-10-03 08:45:01,142 [      ChatWebSocket.java:qtp1632392469-18:67] - Active sessions: 1 
+2016-10-03 08:45:01,182 [  MessageController.java:qtp1632392469-13:33] - Handling message
+2016-10-03 08:45:02,992 [  MessageController.java:qtp1632392469-14:21] - Creating message
+2016-10-03 08:45:03,018 [  MessageController.java:qtp1632392469-18:33] - Handling message
+2016-10-03 08:45:04,864 [  MessageController.java:qtp1632392469-17:21] - Creating message
+2016-10-03 08:45:04,884 [  MessageController.java:qtp1632392469-18:33] - Handling message
+2016-10-03 08:45:06,138 [  MessageController.java:qtp1632392469-17:21] - Creating message
+2016-10-03 08:45:06,155 [  MessageController.java:qtp1632392469-22:33] - Handling message
+2016-10-03 08:45:12,730 [  MessageController.java:qtp1632392469-18:21] - Creating message
+2016-10-03 08:45:12,749 [  MessageController.java:qtp1632392469-22:33] - Handling message
+2016-10-03 08:45:39,779 [      ChatWebSocket.java:qtp1632392469-17:63] - Got connect: guest20 
+
+2016-10-03 08:45:39,783 [      ChatWebSocket.java:qtp1632392469-17:67] - Active sessions: 1 
+2016-10-03 08:45:39,815 [  MessageController.java:qtp1632392469-22:33] - Handling message
+2016-10-03 08:45:40,940 [  MessageController.java:qtp1632392469-19:21] - Creating message
+2016-10-03 08:45:40,964 [  MessageController.java:qtp1632392469-20:33] - Handling message
+2016-10-03 09:02:17,251 [      ChatWebSocket.java:Scheduler-1196765369:51] - Connection closed: 1001 - Idle Timeout
+
+2016-10-03 09:02:17,252 [      ChatWebSocket.java:Scheduler-1196765369:55] - Active sessions: 0 
+2016-10-03 09:03:19,606 [      ChatWebSocket.java:qtp1632392469-21:63] - Got connect: guest173 
+
+2016-10-03 09:03:19,610 [      ChatWebSocket.java:qtp1632392469-21:67] - Active sessions: 1 
+2016-10-03 09:03:19,637 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-03 09:03:21,850 [  MessageController.java:qtp1632392469-19:21] - Creating message
+2016-10-03 09:03:21,878 [  MessageController.java:qtp1632392469-13:33] - Handling message
+2016-10-03 09:03:23,722 [  MessageController.java:qtp1632392469-18:21] - Creating message
+2016-10-03 09:03:23,766 [  MessageController.java:qtp1632392469-21:33] - Handling message
+2016-10-03 09:03:25,074 [  MessageController.java:qtp1632392469-19:21] - Creating message
+2016-10-03 09:03:25,110 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-03 09:06:51,350 [      ChatWebSocket.java:qtp1632392469-19:63] - Got connect: guest129 
+
+2016-10-03 09:06:51,353 [      ChatWebSocket.java:qtp1632392469-19:67] - Active sessions: 1 
+2016-10-03 09:06:51,380 [  MessageController.java:qtp1632392469-13:33] - Handling message
+2016-10-03 09:06:53,539 [  MessageController.java:qtp1632392469-19:21] - Creating message
+2016-10-03 09:06:53,573 [  MessageController.java:qtp1632392469-20:33] - Handling message
+2016-10-03 09:06:55,007 [  MessageController.java:qtp1632392469-18:21] - Creating message
+2016-10-03 09:06:55,036 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-03 09:15:52,634 [      ChatWebSocket.java:qtp1632392469-17:63] - Got connect: guest61 
+
+2016-10-03 09:15:52,637 [      ChatWebSocket.java:qtp1632392469-17:67] - Active sessions: 1 
+2016-10-03 09:15:52,662 [  MessageController.java:qtp1632392469-19:33] - Handling message
+2016-10-03 09:18:02,714 [      ChatWebSocket.java:qtp1632392469-19:63] - Got connect: guest136 
+
+2016-10-03 09:18:02,717 [      ChatWebSocket.java:qtp1632392469-19:67] - Active sessions: 1 
+2016-10-03 09:18:02,778 [  MessageController.java:qtp1632392469-18:33] - Handling message
+2016-10-03 09:18:04,704 [  MessageController.java:qtp1632392469-20:21] - Creating message
+2016-10-03 09:18:04,733 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-03 09:18:06,359 [  MessageController.java:qtp1632392469-19:21] - Creating message
+2016-10-03 09:18:06,388 [  MessageController.java:qtp1632392469-13:33] - Handling message
+2016-10-03 09:18:07,434 [  MessageController.java:qtp1632392469-22:21] - Creating message
+2016-10-03 09:18:07,462 [  MessageController.java:qtp1632392469-18:33] - Handling message
+2016-10-03 09:18:27,326 [  MessageController.java:qtp1632392469-12:21] - Creating message
+2016-10-03 09:18:38,019 [  MessageController.java:qtp1632392469-13:33] - Handling message
+2016-10-03 09:19:45,993 [      ChatWebSocket.java:qtp1632392469-23:63] - Got connect: guest7 
+
+2016-10-03 09:19:45,998 [      ChatWebSocket.java:qtp1632392469-23:67] - Active sessions: 1 
+2016-10-03 09:19:46,025 [  MessageController.java:qtp1632392469-18:33] - Handling message
+2016-10-03 09:19:49,076 [  MessageController.java:qtp1632392469-20:21] - Creating message
+2016-10-03 09:19:49,121 [  MessageController.java:qtp1632392469-13:33] - Handling message
+2016-10-03 09:19:50,297 [  MessageController.java:qtp1632392469-23:21] - Creating message
+2016-10-03 09:19:50,340 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-03 09:19:51,365 [  MessageController.java:qtp1632392469-18:21] - Creating message
+2016-10-03 09:19:51,401 [  MessageController.java:qtp1632392469-13:33] - Handling message
+2016-10-03 09:19:52,503 [  MessageController.java:qtp1632392469-19:21] - Creating message
+2016-10-03 09:19:52,548 [  MessageController.java:qtp1632392469-20:33] - Handling message
+2016-10-03 09:24:52,551 [      ChatWebSocket.java:Scheduler-1196765369:51] - Connection closed: 1001 - Idle Timeout
+
+2016-10-03 09:24:52,553 [      ChatWebSocket.java:Scheduler-1196765369:55] - Active sessions: 0 
+2016-10-03 09:25:33,397 [      ChatWebSocket.java:qtp1632392469-17:63] - Got connect: guest118 
+
+2016-10-03 09:25:33,402 [      ChatWebSocket.java:qtp1632392469-17:67] - Active sessions: 1 
+2016-10-03 09:25:33,440 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-03 09:25:35,290 [  MessageController.java:qtp1632392469-18:21] - Creating message
+2016-10-03 09:25:35,329 [  MessageController.java:qtp1632392469-17:33] - Handling message
+2016-10-03 09:25:36,488 [  MessageController.java:qtp1632392469-22:21] - Creating message
+2016-10-03 09:25:36,521 [  MessageController.java:qtp1632392469-20:33] - Handling message
+2016-10-03 09:25:37,374 [  MessageController.java:qtp1632392469-12:21] - Creating message
+2016-10-03 09:25:37,427 [  MessageController.java:qtp1632392469-18:33] - Handling message
+2016-10-03 09:29:28,076 [      ChatWebSocket.java:qtp492228202-19:63] - Got connect: guest172 
+
+2016-10-03 09:29:28,080 [      ChatWebSocket.java:qtp492228202-19:67] - Active sessions: 1 
+2016-10-03 09:29:28,118 [  MessageController.java:qtp492228202-17:33] - Handling message
+2016-10-03 09:29:30,121 [  MessageController.java:qtp492228202-15:21] - Creating message
+2016-10-03 09:29:30,156 [  MessageController.java:qtp492228202-17:33] - Handling message
+2016-10-03 09:29:34,120 [  MessageController.java:qtp492228202-11:21] - Creating message
+2016-10-03 09:29:34,178 [  MessageController.java:qtp492228202-19:33] - Handling message
+2016-10-03 09:30:03,881 [      ChatWebSocket.java:qtp1632392469-12:63] - Got connect: guest40 
+
+2016-10-03 09:30:03,884 [      ChatWebSocket.java:qtp1632392469-12:67] - Active sessions: 1 
+2016-10-03 09:30:03,922 [  MessageController.java:qtp1632392469-19:33] - Handling message
+2016-10-03 09:30:08,107 [  MessageController.java:qtp1632392469-16:21] - Creating message
+2016-10-03 09:30:08,158 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-03 09:30:09,916 [  MessageController.java:qtp1632392469-14:21] - Creating message
+2016-10-03 09:30:09,943 [  MessageController.java:qtp1632392469-18:33] - Handling message
+2016-10-03 09:35:10,477 [      ChatWebSocket.java:Scheduler-1196765369:51] - Connection closed: 1001 - Idle Timeout
+
+2016-10-03 09:35:10,479 [      ChatWebSocket.java:Scheduler-1196765369:55] - Active sessions: 0 
+2016-10-03 09:48:49,793 [      ChatWebSocket.java:qtp1632392469-19:63] - Got connect: guest45 
+
+2016-10-03 09:48:49,796 [      ChatWebSocket.java:qtp1632392469-19:67] - Active sessions: 1 
+2016-10-03 09:48:49,819 [      ChatWebSocket.java:qtp1632392469-19:51] - Connection closed: 1011 - RuntimeException
+
+2016-10-03 09:48:49,820 [      ChatWebSocket.java:qtp1632392469-19:55] - Active sessions: 0 
+2016-10-03 09:50:41,269 [      ChatWebSocket.java:qtp1632392469-21:63] - Got connect: guest161 
+
+2016-10-03 09:50:41,272 [      ChatWebSocket.java:qtp1632392469-21:67] - Active sessions: 1 
+2016-10-03 09:50:41,286 [     EncryptionAesCbc.aj:qtp1632392469-21:19] - Encrypting message with AES/CBC
+2016-10-03 09:50:42,922 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-03 09:50:42,923 [     EncryptionAesCbc.aj:qtp1632392469-14:40] - Decrypting message with AES/CBC
+2016-10-03 09:50:51,820 [  MessageController.java:qtp1632392469-21:21] - Creating message
+2016-10-03 09:50:51,821 [     EncryptionAesCbc.aj:qtp1632392469-21:19] - Encrypting message with AES/CBC
+2016-10-03 09:50:51,849 [  MessageController.java:qtp1632392469-19:33] - Handling message
+2016-10-03 09:50:51,850 [     EncryptionAesCbc.aj:qtp1632392469-19:40] - Decrypting message with AES/CBC
+2016-10-03 09:50:53,890 [  MessageController.java:qtp1632392469-16:21] - Creating message
+2016-10-03 09:50:53,890 [     EncryptionAesCbc.aj:qtp1632392469-16:19] - Encrypting message with AES/CBC
+2016-10-03 09:50:53,919 [  MessageController.java:qtp1632392469-18:33] - Handling message
+2016-10-03 09:50:53,919 [     EncryptionAesCbc.aj:qtp1632392469-18:40] - Decrypting message with AES/CBC
+2016-10-03 09:50:54,757 [  MessageController.java:qtp1632392469-13:21] - Creating message
+2016-10-03 09:50:54,758 [     EncryptionAesCbc.aj:qtp1632392469-13:19] - Encrypting message with AES/CBC
+2016-10-03 09:50:54,792 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-03 09:50:54,794 [     EncryptionAesCbc.aj:qtp1632392469-14:40] - Decrypting message with AES/CBC
+2016-10-03 09:51:14,082 [  MessageController.java:qtp1632392469-16:21] - Creating message
+2016-10-03 09:51:14,083 [     EncryptionAesCbc.aj:qtp1632392469-16:19] - Encrypting message with AES/CBC
+2016-10-03 09:51:14,125 [  MessageController.java:qtp1632392469-13:33] - Handling message
+2016-10-03 09:51:14,126 [     EncryptionAesCbc.aj:qtp1632392469-13:40] - Decrypting message with AES/CBC
+2016-10-03 09:51:17,753 [  MessageController.java:qtp1632392469-19:21] - Creating message
+2016-10-03 09:51:17,754 [     EncryptionAesCbc.aj:qtp1632392469-19:19] - Encrypting message with AES/CBC
+2016-10-03 09:51:17,798 [  MessageController.java:qtp1632392469-18:33] - Handling message
+2016-10-03 09:51:17,799 [     EncryptionAesCbc.aj:qtp1632392469-18:40] - Decrypting message with AES/CBC
+2016-10-03 09:51:19,328 [  MessageController.java:qtp1632392469-21:21] - Creating message
+2016-10-03 09:51:19,328 [     EncryptionAesCbc.aj:qtp1632392469-21:19] - Encrypting message with AES/CBC
+2016-10-03 09:51:19,356 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-03 09:51:19,356 [     EncryptionAesCbc.aj:qtp1632392469-14:40] - Decrypting message with AES/CBC
+2016-10-03 09:53:22,252 [      ChatWebSocket.java:qtp1632392469-19:63] - Got connect: guest149 
+
+2016-10-03 09:53:22,256 [      ChatWebSocket.java:qtp1632392469-19:67] - Active sessions: 1 
+2016-10-03 09:53:22,282 [     EncryptionAesCbc.aj:qtp1632392469-19:45] - Encrypting message with AES/CBC
+2016-10-03 09:53:22,481 [  MessageController.java:qtp1632392469-22:33] - Handling message
+2016-10-03 09:53:22,482 [     EncryptionAesCbc.aj:qtp1632392469-22:66] - Decrypting message with AES/CBC
+2016-10-03 09:53:24,592 [  MessageController.java:qtp1632392469-14:21] - Creating message
+2016-10-03 09:53:24,592 [     EncryptionAesCbc.aj:qtp1632392469-14:45] - Encrypting message with AES/CBC
+2016-10-03 09:53:24,626 [  MessageController.java:qtp1632392469-19:33] - Handling message
+2016-10-03 09:53:24,626 [     EncryptionAesCbc.aj:qtp1632392469-19:66] - Decrypting message with AES/CBC
+2016-10-03 09:58:01,062 [      ChatWebSocket.java:qtp1632392469-21:63] - Got connect: guest77 
+
+2016-10-03 09:58:01,065 [      ChatWebSocket.java:qtp1632392469-21:67] - Active sessions: 1 
+2016-10-03 09:58:01,294 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-03 09:58:03,159 [  MessageController.java:qtp1632392469-17:21] - Creating message
+2016-10-03 09:58:03,180 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-03 09:58:04,118 [  MessageController.java:qtp1632392469-17:21] - Creating message
+2016-10-03 09:58:04,142 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-03 09:58:37,653 [  MessageController.java:qtp1632392469-18:21] - Creating message
+2016-10-03 09:58:37,684 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-03 09:58:40,183 [  MessageController.java:qtp1632392469-21:21] - Creating message
+2016-10-03 09:58:40,204 [  MessageController.java:qtp1632392469-18:33] - Handling message
+2016-10-03 10:00:02,233 [      ChatWebSocket.java:qtp1632392469-15:63] - Got connect: guest195 
+
+2016-10-03 10:00:02,236 [      ChatWebSocket.java:qtp1632392469-15:67] - Active sessions: 1 
+2016-10-03 10:00:02,559 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-03 10:00:07,130 [  MessageController.java:qtp1632392469-12:21] - Creating message
+2016-10-03 10:00:07,147 [  MessageController.java:qtp1632392469-19:33] - Handling message
+2016-10-03 10:00:09,198 [  MessageController.java:qtp1632392469-22:21] - Creating message
+2016-10-03 10:00:09,213 [  MessageController.java:qtp1632392469-15:33] - Handling message
+2016-10-03 10:02:34,116 [      ChatWebSocket.java:qtp492228202-10:63] - Got connect: guest78 
+
+2016-10-03 10:02:34,120 [      ChatWebSocket.java:qtp492228202-10:67] - Active sessions: 1 
+2016-10-03 10:02:34,356 [  MessageController.java:qtp492228202-20:33] - Handling message
+2016-10-03 10:02:39,120 [  MessageController.java:qtp492228202-11:21] - Creating message
+2016-10-03 10:02:39,185 [  MessageController.java:qtp492228202-10:33] - Handling message
+2016-10-03 10:02:40,365 [  MessageController.java:qtp492228202-14:21] - Creating message
+2016-10-03 10:02:40,395 [  MessageController.java:qtp492228202-18:33] - Handling message
+2016-10-03 10:02:46,832 [  MessageController.java:qtp492228202-20:21] - Creating message
+2016-10-03 10:02:46,865 [  MessageController.java:qtp492228202-16:33] - Handling message
+2016-10-03 10:07:20,875 [      ChatWebSocket.java:qtp1632392469-23:63] - Got connect: guest16 
+
+2016-10-03 10:07:20,878 [      ChatWebSocket.java:qtp1632392469-23:67] - Active sessions: 1 
+2016-10-03 10:07:21,093 [  MessageController.java:qtp1632392469-20:33] - Handling message
+2016-10-03 10:07:26,844 [  MessageController.java:qtp1632392469-23:21] - Creating message
+2016-10-03 10:07:26,899 [  MessageController.java:qtp1632392469-19:33] - Handling message
+2016-10-03 10:07:29,242 [  MessageController.java:qtp1632392469-12:21] - Creating message
+2016-10-03 10:07:29,270 [  MessageController.java:qtp1632392469-23:33] - Handling message
+2016-10-03 10:28:18,259 [      ChatWebSocket.java:qtp1632392469-18:63] - Got connect: guest175 
+
+2016-10-03 10:28:18,262 [      ChatWebSocket.java:qtp1632392469-18:67] - Active sessions: 1 
+2016-10-03 10:28:18,501 [  MessageController.java:qtp1632392469-13:33] - Handling message
+2016-10-03 10:28:22,891 [  MessageController.java:qtp1632392469-17:21] - Creating message
+2016-10-03 10:28:22,949 [  MessageController.java:qtp1632392469-13:33] - Handling message
+2016-10-03 10:29:59,976 [      ChatWebSocket.java:qtp1632392469-14:63] - Got connect: guest48 
+
+2016-10-03 10:29:59,979 [      ChatWebSocket.java:qtp1632392469-14:67] - Active sessions: 1 
+2016-10-03 10:30:00,217 [  MessageController.java:qtp1632392469-13:33] - Handling message
+2016-10-03 10:30:04,607 [  MessageController.java:qtp1632392469-23:21] - Creating message
+2016-10-03 10:30:04,639 [  MessageController.java:qtp1632392469-21:33] - Handling message
+2016-10-03 10:31:20,854 [      ChatWebSocket.java:qtp1632392469-19:63] - Got connect: guest110 
+
+2016-10-03 10:31:20,857 [      ChatWebSocket.java:qtp1632392469-19:67] - Active sessions: 1 
+2016-10-03 10:31:21,091 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-03 10:31:25,344 [  MessageController.java:qtp1632392469-12:21] - Creating message
+2016-10-03 10:31:25,374 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-03 10:31:29,712 [  MessageController.java:qtp1632392469-21:21] - Creating message
+2016-10-03 10:31:29,749 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-03 10:31:31,107 [  MessageController.java:qtp1632392469-21:21] - Creating message
+2016-10-03 10:31:31,172 [  MessageController.java:qtp1632392469-17:33] - Handling message
+2016-10-03 10:31:32,084 [  MessageController.java:qtp1632392469-14:21] - Creating message
+2016-10-03 10:31:32,117 [  MessageController.java:qtp1632392469-17:33] - Handling message
+2016-10-03 10:32:07,990 [      ChatWebSocket.java:qtp1632392469-12:63] - Got connect: guest166 
+
+2016-10-03 10:32:07,993 [      ChatWebSocket.java:qtp1632392469-12:67] - Active sessions: 1 
+2016-10-03 10:32:08,210 [  MessageController.java:qtp1632392469-23:33] - Handling message
+2016-10-03 10:32:15,006 [  MessageController.java:qtp1632392469-16:21] - Creating message
+2016-10-03 10:32:15,063 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-03 10:32:16,229 [  MessageController.java:qtp1632392469-15:21] - Creating message
+2016-10-03 10:32:16,291 [  MessageController.java:qtp1632392469-21:33] - Handling message
+2016-10-03 10:32:16,423 [  MessageController.java:qtp1632392469-18:21] - Creating message
+2016-10-03 10:32:16,444 [  MessageController.java:qtp1632392469-16:33] - Handling message
+2016-10-03 10:32:22,337 [  MessageController.java:qtp1632392469-12:21] - Creating message
+2016-10-03 10:32:22,428 [  MessageController.java:qtp1632392469-16:33] - Handling message
+2016-10-03 10:32:51,996 [      ChatWebSocket.java:qtp1632392469-20:63] - Got connect: guest16 
+
+2016-10-03 10:32:52,000 [      ChatWebSocket.java:qtp1632392469-20:67] - Active sessions: 1 
+2016-10-03 10:32:52,246 [  MessageController.java:qtp1632392469-19:33] - Handling message
+2016-10-03 10:32:58,777 [  MessageController.java:qtp1632392469-15:21] - Creating message
+2016-10-03 10:32:58,838 [  MessageController.java:qtp1632392469-20:33] - Handling message
+2016-10-03 10:33:00,287 [  MessageController.java:qtp1632392469-18:21] - Creating message
+2016-10-03 10:33:00,333 [  MessageController.java:qtp1632392469-22:33] - Handling message
+2016-10-03 10:33:01,851 [  MessageController.java:qtp1632392469-19:21] - Creating message
+2016-10-03 10:33:01,879 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-03 10:44:54,196 [      ChatWebSocket.java:qtp1632392469-17:63] - Got connect: guest40 
+
+2016-10-03 10:44:54,201 [      ChatWebSocket.java:qtp1632392469-17:67] - Active sessions: 1 
+2016-10-03 10:44:54,680 [  MessageController.java:qtp1632392469-20:33] - Handling message
+2016-10-03 10:45:17,122 [      ChatWebSocket.java:qtp1632392469-17:51] - Connection closed: 1005 - null
+
+2016-10-03 10:45:17,124 [      ChatWebSocket.java:qtp1632392469-17:55] - Active sessions: 0 
+2016-10-03 11:01:24,423 [      ChatWebSocket.java:qtp1632392469-22:63] - Got connect: guest15 
+
+2016-10-03 11:01:24,427 [      ChatWebSocket.java:qtp1632392469-22:67] - Active sessions: 1 
+2016-10-03 11:01:24,646 [  MessageController.java:qtp1632392469-17:33] - Handling message
+2016-10-03 11:01:27,435 [  MessageController.java:qtp1632392469-20:21] - Creating message
+2016-10-03 11:01:36,764 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-03 11:01:40,665 [  MessageController.java:qtp1632392469-19:21] - Creating message
+2016-10-03 11:01:40,726 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-03 11:01:44,556 [  MessageController.java:qtp1632392469-22:21] - Creating message
+2016-10-03 11:01:44,601 [  MessageController.java:qtp1632392469-17:33] - Handling message
+2016-10-03 11:01:46,352 [  MessageController.java:qtp1632392469-20:21] - Creating message
+2016-10-03 11:01:46,391 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-03 11:01:50,861 [  MessageController.java:qtp1632392469-19:21] - Creating message
+2016-10-03 11:01:50,902 [  MessageController.java:qtp1632392469-22:33] - Handling message
+2016-10-03 11:02:00,957 [  MessageController.java:qtp1632392469-17:21] - Creating message
+2016-10-03 11:02:00,989 [  MessageController.java:qtp1632392469-20:33] - Handling message
+2016-10-03 11:02:05,884 [  MessageController.java:qtp1632392469-12:21] - Creating message
+2016-10-03 11:02:05,915 [  MessageController.java:qtp1632392469-18:33] - Handling message
+2016-10-03 11:02:43,229 [      ChatWebSocket.java:qtp1632392469-12:63] - Got connect: guest185 
+
+2016-10-03 11:02:43,234 [      ChatWebSocket.java:qtp1632392469-12:67] - Active sessions: 1 
+2016-10-03 11:02:43,473 [  MessageController.java:qtp1632392469-19:33] - Handling message
+2016-10-03 11:02:48,392 [  MessageController.java:qtp1632392469-20:21] - Creating message
+2016-10-03 11:02:48,455 [  MessageController.java:qtp1632392469-22:33] - Handling message
+2016-10-08 17:46:39,087 [      ChatWebSocket.java:qtp492228202-19:63] - Got connect: guest2 
+
+2016-10-08 17:46:39,112 [      ChatWebSocket.java:qtp492228202-19:67] - Active sessions: 1 
+2016-10-08 17:46:39,378 [  MessageController.java:qtp492228202-16:33] - Handling message
+2016-10-08 17:46:45,562 [  MessageController.java:qtp492228202-16:21] - Creating message
+2016-10-08 17:46:45,615 [  MessageController.java:qtp492228202-17:33] - Handling message
+2016-10-08 17:47:01,701 [      ChatWebSocket.java:qtp492228202-14:63] - Got connect: eneias 
+
+2016-10-08 17:47:01,701 [      ChatWebSocket.java:qtp492228202-14:67] - Active sessions: 2 
+2016-10-08 17:47:01,722 [  MessageController.java:qtp492228202-17:33] - Handling message
+2016-10-08 17:47:01,739 [  MessageController.java:qtp492228202-19:33] - Handling message
+2016-10-08 17:47:06,794 [  MessageController.java:qtp492228202-14:21] - Creating message
+2016-10-08 17:47:06,874 [  MessageController.java:qtp492228202-19:33] - Handling message
+2016-10-08 17:47:06,880 [  MessageController.java:qtp492228202-15:33] - Handling message
+2016-10-08 17:47:09,434 [  MessageController.java:qtp492228202-9:21] - Creating message
+2016-10-08 17:47:09,502 [  MessageController.java:qtp492228202-11:33] - Handling message
+2016-10-08 17:47:09,508 [  MessageController.java:qtp492228202-16:33] - Handling message
+2016-10-08 17:47:22,954 [      ChatWebSocket.java:qtp492228202-11:63] - Got connect: guest123 
+
+2016-10-08 17:47:22,956 [      ChatWebSocket.java:qtp492228202-11:67] - Active sessions: 3 
+2016-10-08 17:47:22,977 [  MessageController.java:qtp492228202-15:33] - Handling message
+2016-10-08 17:47:22,980 [  MessageController.java:qtp492228202-16:33] - Handling message
+2016-10-08 17:47:22,992 [  MessageController.java:qtp492228202-14:33] - Handling message
+2016-10-08 17:48:05,456 [  MessageController.java:qtp492228202-17:21] - Creating message
+2016-10-08 17:48:05,505 [  MessageController.java:qtp492228202-14:33] - Handling message
+2016-10-08 17:48:05,513 [  MessageController.java:qtp492228202-11:33] - Handling message
+2016-10-08 17:48:05,528 [  MessageController.java:qtp492228202-19:33] - Handling message
+2016-10-08 17:48:14,154 [  MessageController.java:qtp492228202-11:21] - Creating message
+2016-10-08 17:48:14,184 [  MessageController.java:qtp492228202-19:33] - Handling message
+2016-10-08 17:48:14,188 [  MessageController.java:qtp492228202-15:33] - Handling message
+2016-10-08 17:48:14,194 [  MessageController.java:qtp492228202-17:33] - Handling message
+2016-10-08 17:51:11,457 [      ChatWebSocket.java:qtp1632392469-14:63] - Got connect: guest89 
+
+2016-10-08 17:51:11,460 [      ChatWebSocket.java:qtp1632392469-14:67] - Active sessions: 1 
+2016-10-08 17:51:11,687 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-08 17:51:17,453 [      ChatWebSocket.java:qtp1632392469-20:63] - Got connect: guest175 
+
+2016-10-08 17:51:17,454 [      ChatWebSocket.java:qtp1632392469-20:67] - Active sessions: 2 
+2016-10-08 17:51:17,506 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-08 17:51:17,517 [  MessageController.java:qtp1632392469-17:33] - Handling message
+2016-10-08 17:51:19,878 [  MessageController.java:qtp1632392469-22:21] - Creating message
+2016-10-08 17:51:19,934 [  MessageController.java:qtp1632392469-17:33] - Handling message
+2016-10-08 17:51:19,939 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-08 17:55:03,709 [      ChatWebSocket.java:qtp1632392469-18:63] - Got connect: guest62 
+
+2016-10-08 17:55:03,712 [      ChatWebSocket.java:qtp1632392469-18:67] - Active sessions: 1 
+2016-10-08 17:55:03,944 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-08 17:55:05,969 [  MessageController.java:qtp1632392469-12:21] - Creating message
+2016-10-08 17:55:06,010 [  MessageController.java:qtp1632392469-19:33] - Handling message
+2016-10-08 17:56:10,740 [      ChatWebSocket.java:qtp1632392469-19:63] - Got connect: guest89 
+
+2016-10-08 17:56:10,743 [      ChatWebSocket.java:qtp1632392469-19:67] - Active sessions: 1 
+2016-10-08 17:56:10,993 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-08 17:56:13,403 [  MessageController.java:qtp1632392469-18:21] - Creating message
+2016-10-08 17:56:13,436 [  MessageController.java:qtp1632392469-17:33] - Handling message
+2016-10-08 17:56:15,144 [  MessageController.java:qtp1632392469-19:21] - Creating message
+2016-10-08 17:56:15,190 [  MessageController.java:qtp1632392469-20:33] - Handling message
+2016-10-08 17:57:39,020 [      ChatWebSocket.java:qtp1632392469-17:63] - Got connect: guest67 
+
+2016-10-08 17:57:39,025 [      ChatWebSocket.java:qtp1632392469-17:67] - Active sessions: 1 
+2016-10-08 17:57:39,254 [  MessageController.java:qtp1632392469-19:33] - Handling message
+2016-10-08 17:57:41,379 [  MessageController.java:qtp1632392469-21:21] - Creating message
+2016-10-08 17:57:41,416 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-08 17:57:43,000 [  MessageController.java:qtp1632392469-17:21] - Creating message
+2016-10-08 17:57:43,062 [  MessageController.java:qtp1632392469-19:33] - Handling message
+2016-10-08 18:04:56,643 [      ChatWebSocket.java:qtp1632392469-18:63] - Got connect: guest115 
+
+2016-10-08 18:04:56,647 [      ChatWebSocket.java:qtp1632392469-18:67] - Active sessions: 1 
+2016-10-08 18:04:56,884 [  MessageController.java:qtp1632392469-17:33] - Handling message
+2016-10-08 18:04:59,480 [  MessageController.java:qtp1632392469-12:21] - Creating message
+2016-10-08 18:04:59,530 [  MessageController.java:qtp1632392469-17:33] - Handling message
+2016-10-08 18:05:01,086 [  MessageController.java:qtp1632392469-12:21] - Creating message
+2016-10-08 18:05:01,118 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-08 18:05:02,240 [  MessageController.java:qtp1632392469-17:21] - Creating message
+2016-10-08 18:05:02,262 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-08 18:05:03,379 [  MessageController.java:qtp1632392469-17:21] - Creating message
+2016-10-08 18:05:03,448 [  MessageController.java:qtp1632392469-16:33] - Handling message
+2016-10-08 18:05:05,616 [  MessageController.java:qtp1632392469-14:21] - Creating message
+2016-10-08 18:05:05,741 [  MessageController.java:qtp1632392469-16:33] - Handling message
+2016-10-08 18:05:08,224 [  MessageController.java:qtp1632392469-12:21] - Creating message
+2016-10-08 18:05:08,266 [  MessageController.java:qtp1632392469-16:33] - Handling message
+2016-10-08 18:05:14,024 [      ChatWebSocket.java:qtp1632392469-21:63] - Got connect: guest193 
+
+2016-10-08 18:05:14,026 [      ChatWebSocket.java:qtp1632392469-21:67] - Active sessions: 2 
+2016-10-08 18:05:14,051 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-08 18:05:14,056 [  MessageController.java:qtp1632392469-18:33] - Handling message
+2016-10-08 18:05:16,702 [  MessageController.java:qtp1632392469-14:21] - Creating message
+2016-10-08 18:05:16,726 [  MessageController.java:qtp1632392469-21:33] - Handling message
+2016-10-08 18:05:16,733 [  MessageController.java:qtp1632392469-16:33] - Handling message
+2016-10-08 18:05:18,030 [  MessageController.java:qtp1632392469-21:21] - Creating message
+2016-10-08 18:05:18,083 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-08 18:05:18,090 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-08 18:05:26,759 [      ChatWebSocket.java:qtp1632392469-12:63] - Got connect: guest157 
+
+2016-10-08 18:05:26,759 [      ChatWebSocket.java:qtp1632392469-12:67] - Active sessions: 3 
+2016-10-08 18:05:26,776 [  MessageController.java:qtp1632392469-18:33] - Handling message
+2016-10-08 18:05:26,791 [  MessageController.java:qtp1632392469-21:33] - Handling message
+2016-10-08 18:05:26,838 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-08 18:05:28,795 [  MessageController.java:qtp1632392469-18:21] - Creating message
+2016-10-08 18:05:28,841 [  MessageController.java:qtp1632392469-17:33] - Handling message
+2016-10-08 18:05:28,847 [  MessageController.java:qtp1632392469-16:33] - Handling message
+2016-10-08 18:05:28,856 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-08 18:05:42,050 [  MessageController.java:qtp1632392469-17:21] - Creating message
+2016-10-08 18:05:42,134 [  MessageController.java:qtp1632392469-16:33] - Handling message
+2016-10-08 18:05:42,137 [  MessageController.java:qtp1632392469-21:33] - Handling message
+2016-10-08 18:05:42,145 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-08 18:05:49,368 [  MessageController.java:qtp1632392469-17:21] - Creating message
+2016-10-08 18:05:49,423 [  MessageController.java:qtp1632392469-16:33] - Handling message
+2016-10-08 18:05:49,431 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-08 18:05:49,434 [  MessageController.java:qtp1632392469-18:33] - Handling message
+2016-10-08 18:08:01,780 [  MessageController.java:qtp1632392469-12:21] - Creating message
+2016-10-08 18:08:01,838 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-08 18:08:01,851 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-08 18:08:01,879 [  MessageController.java:qtp1632392469-21:33] - Handling message
+2016-10-08 18:09:34,509 [      ChatWebSocket.java:qtp1632392469-14:63] - Got connect: guest20 
+
+2016-10-08 18:09:34,512 [      ChatWebSocket.java:qtp1632392469-14:67] - Active sessions: 1 
+2016-10-08 18:09:34,602 [  MessageController.java:qtp1632392469-19:33] - Handling message
+2016-10-08 18:09:36,554 [  MessageController.java:qtp1632392469-18:21] - Creating message
+2016-10-08 18:09:36,580 [  MessageController.java:qtp1632392469-20:33] - Handling message
+2016-10-08 18:09:38,006 [  MessageController.java:qtp1632392469-14:21] - Creating message
+2016-10-08 18:09:38,038 [  MessageController.java:qtp1632392469-17:33] - Handling message
+2016-10-08 18:09:41,705 [      ChatWebSocket.java:qtp1632392469-12:63] - Got connect: guest7 
+
+2016-10-08 18:09:41,706 [      ChatWebSocket.java:qtp1632392469-12:67] - Active sessions: 2 
+2016-10-08 18:09:41,721 [  MessageController.java:qtp1632392469-19:33] - Handling message
+2016-10-08 18:09:41,723 [  MessageController.java:qtp1632392469-17:33] - Handling message
+2016-10-08 18:09:43,269 [  MessageController.java:qtp1632392469-12:21] - Creating message
+2016-10-08 18:09:43,292 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-08 18:09:43,295 [  MessageController.java:qtp1632392469-18:33] - Handling message
+2016-10-08 18:09:50,470 [      ChatWebSocket.java:qtp1632392469-12:63] - Got connect: guest159 
+
+2016-10-08 18:09:50,471 [      ChatWebSocket.java:qtp1632392469-12:67] - Active sessions: 3 
+2016-10-08 18:09:50,491 [  MessageController.java:qtp1632392469-19:33] - Handling message
+2016-10-08 18:09:50,505 [  MessageController.java:qtp1632392469-22:33] - Handling message
+2016-10-08 18:09:50,508 [  MessageController.java:qtp1632392469-20:33] - Handling message
+2016-10-08 18:09:52,149 [  MessageController.java:qtp1632392469-12:21] - Creating message
+2016-10-08 18:09:52,176 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-08 18:09:52,179 [  MessageController.java:qtp1632392469-18:33] - Handling message
+2016-10-08 18:09:52,182 [  MessageController.java:qtp1632392469-19:33] - Handling message
+2016-10-08 18:09:55,576 [  MessageController.java:qtp1632392469-19:21] - Creating message
+2016-10-08 18:09:55,663 [  MessageController.java:qtp1632392469-22:33] - Handling message
+2016-10-08 18:09:55,666 [  MessageController.java:qtp1632392469-20:33] - Handling message
+2016-10-08 18:09:55,671 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-08 18:11:39,240 [      ChatWebSocket.java:qtp1632392469-22:63] - Got connect: guest196 
+
+2016-10-08 18:11:39,243 [      ChatWebSocket.java:qtp1632392469-22:67] - Active sessions: 1 
+2016-10-08 18:11:39,266 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-08 18:11:42,369 [  MessageController.java:qtp1632392469-18:21] - Creating message
+2016-10-08 18:11:42,446 [  MessageController.java:qtp1632392469-22:33] - Handling message
+2016-10-08 18:12:11,282 [      ChatWebSocket.java:qtp1632392469-19:63] - Got connect: guest20 
+
+2016-10-08 18:12:11,285 [      ChatWebSocket.java:qtp1632392469-19:67] - Active sessions: 1 
+2016-10-08 18:12:11,316 [  MessageController.java:qtp1632392469-12:33] - Handling message
+2016-10-08 18:12:17,009 [  MessageController.java:qtp1632392469-21:21] - Creating message
+2016-10-08 18:12:17,035 [  MessageController.java:qtp1632392469-19:33] - Handling message
+2016-10-08 18:12:21,037 [  MessageController.java:qtp1632392469-17:21] - Creating message
+2016-10-08 18:12:21,071 [  MessageController.java:qtp1632392469-22:33] - Handling message
+2016-10-08 18:12:28,744 [  MessageController.java:qtp1632392469-19:21] - Creating message
+2016-10-08 18:12:28,769 [  MessageController.java:qtp1632392469-15:33] - Handling message
+2016-10-08 18:15:11,043 [      ChatWebSocket.java:qtp1632392469-18:63] - Got connect: guest148 
+
+2016-10-08 18:15:11,046 [      ChatWebSocket.java:qtp1632392469-18:67] - Active sessions: 1 
+2016-10-08 18:15:11,048 [     EncryptionAesCbc.aj:qtp1632392469-18:44] - Encrypting message with AES/CBC
+2016-10-08 18:15:11,266 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-08 18:15:11,267 [     EncryptionAesCbc.aj:qtp1632392469-14:65] - Decrypting message with AES/CBC
+2016-10-08 18:15:12,998 [  MessageController.java:qtp1632392469-21:21] - Creating message
+2016-10-08 18:15:12,999 [     EncryptionAesCbc.aj:qtp1632392469-21:44] - Encrypting message with AES/CBC
+2016-10-08 18:15:13,014 [     EncryptionAesCbc.aj:qtp1632392469-18:65] - Decrypting message with AES/CBC
+2016-10-08 18:15:13,027 [  MessageController.java:qtp1632392469-14:33] - Handling message
+2016-10-08 18:15:13,028 [     EncryptionAesCbc.aj:qtp1632392469-14:65] - Decrypting message with AES/CBC

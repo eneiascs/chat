@@ -1,0 +1,13 @@
+# Lists all features from the model with manual (first digit) and automatic (second digit) selection
+# 0 = deselected, 1 = selected, 2 = undefined
+11Chat
+11Connection
+12Authentication
+11Message
+12Color
+12History
+11MessageEncryption
+12EncryptionAesCbc
+20EncryptionAesEcb
+22SpamFilter
+22Sound
